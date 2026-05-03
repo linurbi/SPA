@@ -1,8 +1,8 @@
-/* Linur Spa — copy for EN / עברית / ไทย */
+/* Ann Spa — copy for EN / עברית / ไทย */
 (function (global) {
   var T = {
     en: {
-      meta_title: "Linur Spa — Jerusalem",
+      meta_title: "Ann Spa — Jerusalem",
       meta_desc:
         "Massage and wellness in Jerusalem — treatments, booking, and visit details.",
       nav_about: "About",
@@ -22,7 +22,7 @@
       about_h2: "About",
       about_kicker: "Who we are",
       about_p1:
-        "Linur Spa is a new wellness studio in Jerusalem, built around the idea that real rest is not an indulgence — it is maintenance. We focus on massage and body therapies that reduce tension, improve mobility, and help you return to your day feeling grounded.",
+        "Ann Spa is a new wellness studio in Jerusalem, built around the idea that real rest is not an indulgence — it is maintenance. We focus on massage and body therapies that reduce tension, improve mobility, and help you return to your day feeling grounded.",
       about_p2:
         "Every session is tailored: we listen, adjust pressure and technique, and hold a peaceful environment so you can fully switch off. Whether you need recovery after travel, desk work, or simply the pace of the city, you are welcome here.",
       treatments_h2: "Treatments",
@@ -61,7 +61,7 @@
       visit_note: "Transit and parking notes can go here once finalized.",
       map_placeholder:
         "Embed Google Maps or OpenStreetMap — paste the iframe from Share → Embed on your pin.",
-      footer_tag: "Linur Spa · Jerusalem",
+      footer_tag: "Ann Spa · Jerusalem",
       footer_contact: "Contact",
       img_hero_alt: "Calm massage and spa atmosphere",
       img_about_alt: "Peaceful treatment space with natural light",
@@ -71,7 +71,7 @@
       img_t4_alt: "Warm stones and spa details",
     },
     he: {
-      meta_title: "לינור ספא — ירושלים",
+      meta_title: "אן ספא — ירושלים",
       meta_desc: "עיסוי ובריאות בירושלים — סוגי טיפולים, יצירת קשר ופרטי ביקור.",
       nav_about: "אודות",
       nav_treatments: "טיפולים",
@@ -90,7 +90,7 @@
       about_h2: "אודות",
       about_kicker: "מי אנחנו",
       about_p1:
-        "לינור ספא הוא סטודיו חדש לבריאות בירושלים, שנבנה סביב הרעיון שמנוחה אמיתית אינה פינוק — היא תחזוקה. אנחנו מתמקדים בעיסוי ובטיפולי גוף שמפחיתים מתח, משפרים תנועתיות, ועוזרים לך לחזור ליום עם תחושת עמידה בקרקע.",
+        "אן ספא הוא סטודיו חדש לבריאות בירושלים, שנבנה סביב הרעיון שמנוחה אמיתית אינה פינוק — היא תחזוקה. אנחנו מתמקדים בעיסוי ובטיפולי גוף שמפחיתים מתח, משפרים תנועתיות, ועוזרים לך לחזור ליום עם תחושת עמידה בקרקע.",
       about_p2:
         "כל מפגש מותאם: אנחנו מקשיבים, מתאימים עוצמה וטכניקה, ושומרים על סביבה שלווה כדי שתוכל באמת להתנתק. בין אם צריך התאוששות אחרי נסיעות, עבודה מול מחשב, או קצב העיר — אתם מוזמנים.",
       treatments_h2: "טיפולים",
@@ -129,7 +129,7 @@
       visit_note: "הערות תחבורה וחניה — יתווספו כשיהיו סופיות.",
       map_placeholder:
         "הטמיעו מפת Google או OpenStreetMap — הדביקו iframe משיתוף → הטמעה בסימון המיקום.",
-      footer_tag: "לינור ספא · ירושלים",
+      footer_tag: "אן ספא · ירושלים",
       footer_contact: "צור קשר",
       img_hero_alt: "אווירת ספא ועיסוי רגועה",
       img_about_alt: "חלל טיפולים שקט עם אור טבעי",
@@ -139,7 +139,7 @@
       img_t4_alt: "אבנים חמות ופרטי ספא",
     },
     th: {
-      meta_title: "Linur Spa — เยรูซาเล็ม",
+      meta_title: "Ann Spa — เยรูซาเล็ม",
       meta_desc:
         "นวดและเวลเนสในเยรูซาเล็ม — ประเภททรีตเมนต์ การติดต่อ และที่อยู่",
       nav_about: "เกี่ยวกับเรา",
@@ -159,7 +159,7 @@
       about_h2: "เกี่ยวกับเรา",
       about_kicker: "เราเป็นใคร",
       about_p1:
-        "Linur Spa คือสตูดิโอเวลเนสใหม่ในเยรูซาเล็ม ที่เชื่อว่าการพักผ่อนที่แท้จริงไม่ใช่ความฟุ่มเฟือย แต่เป็นสิ่งที่ต้องดูแลเป็นประจำ เราเน้นนวดและบำบัดร่างกายเพื่อคลายความตึง เพิ่มการเคลื่อนไหว และช่วยให้คุณกลับสู่วันใหม่ด้วยความรู้สึกมั่นคง",
+        "Ann Spa คือสตูดิโอเวลเนสใหม่ในเยรูซาเล็ม ที่เชื่อว่าการพักผ่อนที่แท้จริงไม่ใช่ความฟุ่มเฟือย แต่เป็นสิ่งที่ต้องดูแลเป็นประจำ เราเน้นนวดและบำบัดร่างกายเพื่อคลายความตึง เพิ่มการเคลื่อนไหว และช่วยให้คุณกลับสู่วันใหม่ด้วยความรู้สึกมั่นคง",
       about_p2:
         "ทุกเซสชันปรับให้เหมาะกับคุณ: เราฟัง ปรับแรงกดและเทคนิค และรักษาบรรยากาศเงียบสงบเพื่อให้คุณสลัดความวุ่นวายได้จริงๆ ไม่ว่าจะฟื้นหลังเดินทาง งานโต๊ะ หรือจังหวะชีวิตในเมือง — ยินดีต้อนรับ",
       treatments_h2: "ทรีตเมนต์",
@@ -198,7 +198,7 @@
       visit_note: "รายละเอียดขนส่งสาธารณะและที่จอดรถ — จะเพิ่มเมื่อพร้อม",
       map_placeholder:
         "ฝัง Google Maps หรือ OpenStreetMap — วาง iframe จาก Share → Embed ที่หมุดของคุณ",
-      footer_tag: "Linur Spa · เยรูซาเล็ม",
+      footer_tag: "Ann Spa · เยรูซาเล็ม",
       footer_contact: "ติดต่อ",
       img_hero_alt: "บรรยากาศสปาและนวดที่ผ่อนคลาย",
       img_about_alt: "ห้องทรีตเมนต์เงียบสงบแสงธรรมชาติ",
@@ -217,17 +217,27 @@
     return "en";
   }
 
+  var LANG_KEY = "ann-spa-lang";
+  var LANG_KEY_LEGACY = "linur-spa-lang";
+
   function getStoredLang() {
     try {
-      var s = global.localStorage.getItem("linur-spa-lang");
+      var s = global.localStorage.getItem(LANG_KEY);
       if (s === "en" || s === "he" || s === "th") return s;
+      s = global.localStorage.getItem(LANG_KEY_LEGACY);
+      if (s === "en" || s === "he" || s === "th") {
+        global.localStorage.setItem(LANG_KEY, s);
+        global.localStorage.removeItem(LANG_KEY_LEGACY);
+        return s;
+      }
     } catch (e) {}
     return null;
   }
 
   function setStoredLang(code) {
     try {
-      global.localStorage.setItem("linur-spa-lang", code);
+      global.localStorage.setItem(LANG_KEY, code);
+      global.localStorage.removeItem(LANG_KEY_LEGACY);
     } catch (e) {}
   }
 
