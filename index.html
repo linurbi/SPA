@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Massage and wellness in Jerusalem — treatments, booking, and visit details."
+    />
+    <title>Linur Spa — Jerusalem</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@300;400;500;700&family=Instrument+Serif:ital@0;1&family=Noto+Sans+Thai:wght@300;400;500;600&family=Outfit:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="noise" aria-hidden="true"></div>
+
+    <header class="site-header">
+      <a class="logo" href="#">Linur</a>
+      <span class="header-spacer" aria-hidden="true"></span>
+      <div class="header-tools">
+        <div class="lang-switch" role="group" data-i18n-aria="lang_label">
+          <button type="button" class="lang-btn" data-lang="en" aria-pressed="true">EN</button>
+          <button type="button" class="lang-btn" data-lang="he" aria-pressed="false">עב</button>
+          <button type="button" class="lang-btn" data-lang="th" aria-pressed="false">ไทย</button>
+        </div>
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-expanded="false"
+          aria-controls="site-nav"
+          aria-label="Open menu"
+        >
+          <span></span><span></span>
+        </button>
+      </div>
+      <nav id="site-nav" class="site-nav" aria-label="Primary">
+        <a href="#about" data-i18n="nav_about">About</a>
+        <a href="#treatments" data-i18n="nav_treatments">Treatments</a>
+        <a href="#contact" data-i18n="nav_contact">Contact</a>
+        <a href="#visit" class="nav-cta" data-i18n="nav_visit">Visit</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-inner">
+          <p class="eyebrow" data-i18n="hero_eyebrow">Jerusalem · Massage &amp; wellness</p>
+          <h1 class="hero-title">
+            <span data-i18n="hero_title_1">Stillness,</span><br />
+            <em data-i18n="hero_title_em">made tangible.</em>
+          </h1>
+          <p class="hero-lede" data-i18n="hero_lede">
+            A calm space for therapeutic massage and restorative bodywork — crafted
+            sessions, attentive care, and the quiet luxury of time that belongs only
+            to you.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-primary" href="#contact" data-i18n="hero_btn_primary">Book or inquire</a>
+            <a class="btn btn-ghost" href="#treatments" data-i18n="hero_btn_ghost">View treatments</a>
+          </div>
+        </div>
+        <figure class="hero-visual">
+          <div class="hero-visual-bg" aria-hidden="true">
+            <div class="orb orb-a"></div>
+            <div class="orb orb-b"></div>
+          </div>
+          <div class="hero-photo-wrap">
+            <img
+              class="hero-photo"
+              src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&amp;fit=crop&amp;w=1100&amp;h=1400&amp;q=80"
+              srcset="
+                https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&amp;fit=crop&amp;w=640&amp;q=80   640w,
+                https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&amp;fit=crop&amp;w=960&amp;q=80   960w,
+                https://images.unsplash.com/photo-1544161515-4ab6ce6db874?auto=format&amp;fit=crop&amp;w=1100&amp;q=80 1100w
+              "
+              sizes="(min-width: 900px) 42vw, 88vw"
+              width="1100"
+              height="1400"
+              fetchpriority="high"
+              decoding="async"
+              data-i18n-alt="img_hero_alt"
+              alt="Calm massage and spa atmosphere"
+            />
+          </div>
+          <div class="hero-line" aria-hidden="true"></div>
+        </figure>
+      </section>
+
+      <section id="about" class="section about">
+        <div class="section-grid about-grid">
+          <div class="section-intro">
+            <h2 data-i18n="about_h2">About</h2>
+            <p class="section-kicker" data-i18n="about_kicker">Who we are</p>
+          </div>
+          <div class="about-media">
+            <img
+              class="about-photo"
+              src="https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&amp;fit=crop&amp;w=1000&amp;h=750&amp;q=80"
+              srcset="
+                https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&amp;fit=crop&amp;w=600&amp;q=80  600w,
+                https://images.unsplash.com/photo-1540555700478-4be289fbecef?auto=format&amp;fit=crop&amp;w=1000&amp;q=80 1000w
+              "
+              sizes="(min-width: 800px) 50vw, 100vw"
+              width="1000"
+              height="750"
+              loading="lazy"
+              decoding="async"
+              data-i18n-alt="img_about_alt"
+              alt="Peaceful treatment space with natural light"
+            />
+          </div>
+          <div class="section-body prose">
+            <p data-i18n="about_p1">
+              Linur Spa is a new wellness studio in Jerusalem, built around the idea
+              that real rest is not an indulgence — it is maintenance. We focus on
+              massage and body therapies that reduce tension, improve mobility, and
+              help you return to your day feeling grounded.
+            </p>
+            <p data-i18n="about_p2">
+              Every session is tailored: we listen, adjust pressure and technique, and
+              hold a peaceful environment so you can fully switch off. Whether you
+              need recovery after travel, desk work, or simply the pace of the city,
+              you are welcome here.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section id="treatments" class="section treatments">
+        <div class="section-head">
+          <h2 data-i18n="treatments_h2">Treatments</h2>
+          <p class="section-kicker" data-i18n="treatments_kicker">What we offer</p>
+        </div>
+        <ul class="treatment-list">
+          <li class="treatment-card">
+            <div class="treatment-card-media">
+              <img
+                src="https://images.unsplash.com/photo-1519823551278-64acac67f261?auto=format&amp;fit=crop&amp;w=800&amp;h=600&amp;q=80"
+                width="800"
+                height="600"
+                loading="lazy"
+                decoding="async"
+                data-i18n-alt="img_t1_alt"
+                alt="Relaxing Swedish-style massage"
+              />
+            </div>
+            <div class="treatment-card-body">
+              <h3 data-i18n="t1_h">Swedish &amp; relaxation</h3>
+              <p data-i18n="t1_p">
+                Long, flowing strokes and gentle-to-moderate pressure to calm the nervous
+                system and ease everyday stress.
+              </p>
+            </div>
+          </li>
+          <li class="treatment-card">
+            <div class="treatment-card-media">
+              <img
+                src="https://images.unsplash.com/photo-1600884331304-64704091c6b6?auto=format&amp;fit=crop&amp;w=800&amp;h=600&amp;q=80"
+                width="800"
+                height="600"
+                loading="lazy"
+                decoding="async"
+                data-i18n-alt="img_t2_alt"
+                alt="Therapeutic deep tissue work"
+              />
+            </div>
+            <div class="treatment-card-body">
+              <h3 data-i18n="t2_h">Deep tissue &amp; therapeutic</h3>
+              <p data-i18n="t2_p">
+                Targeted work on chronic tight areas — shoulders, lower back, legs —
+                with clear communication on depth and comfort.
+              </p>
+            </div>
+          </li>
+          <li class="treatment-card">
+            <div class="treatment-card-media">
+              <img
+                src="https://images.unsplash.com/photo-1571902943202-507ec2618e8f?auto=format&amp;fit=crop&amp;w=800&amp;h=600&amp;q=80"
+                width="800"
+                height="600"
+                loading="lazy"
+                decoding="async"
+                data-i18n-alt="img_t3_alt"
+                alt="Recovery and sports massage"
+              />
+            </div>
+            <div class="treatment-card-body">
+              <h3 data-i18n="t3_h">Sports &amp; recovery</h3>
+              <p data-i18n="t3_p">
+                Support for active bodies: flush fatigue, improve range of motion, and
+                complement your training or hiking in and around the city.
+              </p>
+            </div>
+          </li>
+          <li class="treatment-card">
+            <div class="treatment-card-media">
+              <img
+                src="https://images.unsplash.com/photo-1596178060826-8f42e564b7f4?auto=format&amp;fit=crop&amp;w=800&amp;h=600&amp;q=80"
+                width="800"
+                height="600"
+                loading="lazy"
+                decoding="async"
+                data-i18n-alt="img_t4_alt"
+                alt="Warm stones and spa details"
+              />
+            </div>
+            <div class="treatment-card-body">
+              <h3 data-i18n="t4_h">Hot stone &amp; add-ons</h3>
+              <p data-i18n="t4_p">
+                Optional enhancements where available — ask when you book. We keep the
+                menu focused so quality stays consistent.
+              </p>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+      <section id="contact" class="section contact">
+        <div class="section-grid contact-grid">
+          <div class="section-intro">
+            <h2 data-i18n="contact_h2">Contact</h2>
+            <p class="section-kicker" data-i18n="contact_kicker">We reply personally</p>
+            <p class="prose small" data-i18n="contact_intro">
+              Send a message with your preferred times and any health notes we should
+              know. We will confirm availability by email or phone.
+            </p>
+          </div>
+          <div class="contact-panel">
+            <dl class="contact-dl">
+              <dt data-i18n="lbl_email">Email</dt>
+              <dd><a href="mailto:hello@linurspa.example">hello@linurspa.example</a></dd>
+              <dt data-i18n="lbl_phone">Phone / WhatsApp</dt>
+              <dd><a href="tel:+972000000000">+972-XX-XXX-XXXX</a></dd>
+            </dl>
+            <form class="contact-form" action="#" method="post" onsubmit="return false;">
+              <label>
+                <span data-i18n="form_name">Name</span>
+                <input
+                  type="text"
+                  name="name"
+                  autocomplete="name"
+                  data-i18n-placeholder="ph_name"
+                  placeholder="Your name"
+                />
+              </label>
+              <label>
+                <span data-i18n="form_email">Email</span>
+                <input
+                  type="email"
+                  name="email"
+                  autocomplete="email"
+                  data-i18n-placeholder="ph_email"
+                  placeholder="you@email.com"
+                />
+              </label>
+              <label>
+                <span data-i18n="form_message">Message</span>
+                <textarea
+                  name="message"
+                  rows="4"
+                  data-i18n-placeholder="ph_message"
+                  placeholder="Treatment interest, preferred days…"
+                ></textarea>
+              </label>
+              <button type="submit" class="btn btn-primary" data-i18n="form_submit">Send message</button>
+              <p class="form-note" data-i18n="form_note">
+                This form is a layout placeholder. Connect it to Formspree, Netlify Forms, or your email — all work on free static hosting.
+              </p>
+            </form>
+          </div>
+        </div>
+      </section>
+
+      <section id="visit" class="section visit">
+        <div class="visit-card">
+          <div class="visit-text">
+            <h2 data-i18n="visit_h2">Visit us</h2>
+            <p class="section-kicker" data-i18n="visit_kicker">Address</p>
+            <address class="address">
+              <span data-i18n="address_line1">[Street &amp; number]</span><br />
+              <span data-i18n="address_line2">Jerusalem, Israel</span>
+            </address>
+            <p class="prose small visit-note" data-i18n="visit_note">
+              Public transport and parking notes can go here once finalized.
+            </p>
+          </div>
+          <div class="visit-map" data-i18n="map_placeholder" role="note">
+            Embed Google Maps or OpenStreetMap — paste the iframe from Share → Embed on your pin.
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <p>© <span id="year"></span> <span data-i18n="footer_tag">Linur Spa · Jerusalem</span></p>
+      <a href="#contact" data-i18n="footer_contact">Contact</a>
+    </footer>
+
+    <script src="i18n.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>
