@@ -828,6 +828,7 @@ html[dir="rtl"] .hero-line {
 }
 
 .contact-form {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: var(--space-sm);
@@ -859,6 +860,37 @@ html[dir="rtl"] .hero-line {
   outline: 2px solid color-mix(in srgb, var(--accent) 45%, transparent);
   outline-offset: 2px;
   border-color: transparent;
+}
+
+.form-hp {
+  position: absolute;
+  left: -9999px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+}
+
+.form-status {
+  margin: 0;
+  font-size: 0.88rem;
+  line-height: 1.45;
+  padding: 0.65rem 0.85rem;
+  border-radius: var(--radius);
+  border: 1px solid var(--line);
+  background: var(--bg-elevated);
+  color: var(--ink);
+}
+
+.form-status.is-success {
+  border-color: color-mix(in srgb, #3d6b4f 35%, var(--line));
+  background: color-mix(in srgb, #3d6b4f 10%, var(--bg-elevated));
+}
+
+.form-status.is-error {
+  border-color: color-mix(in srgb, #8b3a3a 40%, var(--line));
+  background: color-mix(in srgb, #8b3a3a 08%, var(--bg-elevated));
 }
 
 .form-note {

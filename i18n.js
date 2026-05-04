@@ -54,8 +54,14 @@
       ph_email: "you@email.com",
       ph_message: "Treatment interest, preferred days…",
       form_submit: "Send message",
+      form_sending: "Sending…",
+      form_success: "Thank you — we received your message and will reply soon.",
+      form_error: "Something went wrong. Please try again or email us directly.",
+      form_need_key:
+        "Form is not connected yet: add your free Web3Forms access key on the form tag (data-web3forms-key) in index.html — see web3forms.com.",
+      form_email_subject: "Sabai Dee — website contact",
       form_note:
-        "This form is a layout placeholder. Connect it to Formspree, Netlify Forms, or your email — all work on free static hosting.",
+        "Uses Web3Forms (free, works on GitHub Pages). Create a key at web3forms.com, paste it into this page’s form as data-web3forms-key=\"YOUR_KEY\" in index.html — submissions go to the email you set there.",
       visit_h2: "Visit us",
       visit_kicker: "Address",
       address_line1: "[Street & number]",
@@ -125,8 +131,14 @@
       ph_email: "you@email.com",
       ph_message: "סוג טיפול, ימים מועדפים…",
       form_submit: "שליחת הודעה",
+      form_sending: "שולחים…",
+      form_success: "תודה — קיבלנו את ההודעה ונחזור אליכם בקרוב.",
+      form_error: "משהו השתבש. נסו שוב או כתבו אלינו במייל ישירות.",
+      form_need_key:
+        "הטופס עדיין לא מחובר: הוסיפו מפתח Web3Forms חינמי בתג הטופס (data-web3forms-key) ב־index.html — ראו web3forms.com.",
+      form_email_subject: "Sabai Dee — פנייה מהאתר",
       form_note:
-        "טופס זה הוא placeholder לעיצוב. ניתן לחבר ל־Formspree, Netlify Forms או דוא\"ל — הכל עובד על אחסון סטטי חינמי.",
+        "באמצעות Web3Forms (חינמי, עובד ב־GitHub Pages). צרו מפתח ב־web3forms.com והדביקו בטופס ב־index.html כ־data-web3forms-key=\"המפתח\" — ההודעות יגיעו לדוא\"ל שהגדרתם שם.",
       visit_h2: "לבקר אותנו",
       visit_kicker: "כתובת",
       address_line1: "[רחוב ומספר]",
@@ -196,8 +208,14 @@
       ph_email: "you@email.com",
       ph_message: "ทรีตเมนวันที่สะดวก…",
       form_submit: "ส่งข้อความ",
+      form_sending: "กำลังส่ง…",
+      form_success: "ขอบคุณ — เราได้รับข้อความแล้วและจะตอบกลับโดยเร็ว",
+      form_error: "เกิดข้อผิดพลาด ลองอีกครั้งหรือส่งอีเมลหาเราโดยตรง",
+      form_need_key:
+        "ยังไม่ได้เชื่อมฟอร์ม: เพิ่มรหัส Web3Forms ฟรีที่แท็กฟอร์ม (data-web3forms-key) ใน index.html — ดูที่ web3forms.com",
+      form_email_subject: "Sabai Dee — ติดต่อจากเว็บไซต์",
       form_note:
-        "แบบฟอร์มนี้เป็นตัวอย่างการจัดวาง เชื่อมต่อกับ Formspree, Netlify Forms หรืออีเมลของคุณ — ใช้กับโฮสติ้งฟรีได้",
+        "ใช้ Web3Forms (ฟรี ใช้กับ GitHub Pages ได้) สร้างรหัสที่ web3forms.com แล้ววางในแท็กฟอร์มเป็น data-web3forms-key=\"รหัส\" ใน index.html — ข้อความจะไปที่อีเมลที่ตั้งไว้",
       visit_h2: "แวะมาเยี่ยม",
       visit_kicker: "ที่อยู่",
       address_line1: "[ถนนและเลขที่]",

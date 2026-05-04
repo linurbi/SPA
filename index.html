@@ -253,12 +253,22 @@
               <dt data-i18n="lbl_phone">Phone / WhatsApp</dt>
               <dd><a href="tel:+972000000000">+972-XX-XXX-XXXX</a></dd>
             </dl>
-            <form class="contact-form" action="#" method="post" onsubmit="return false;">
+            <!-- Web3Forms: get a free key at https://web3forms.com and paste it below (data-web3forms-key="…"). Submissions go to the email you register there. -->
+            <form
+              id="contact-form"
+              class="contact-form"
+              data-web3forms-key=""
+              novalidate
+            >
+              <label class="form-hp" aria-hidden="true">
+                <input type="checkbox" name="botcheck" tabindex="-1" autocomplete="off" />
+              </label>
               <label>
                 <span data-i18n="form_name">Name</span>
                 <input
                   type="text"
                   name="name"
+                  required
                   autocomplete="name"
                   data-i18n-placeholder="ph_name"
                   placeholder="Your name"
@@ -269,6 +279,7 @@
                 <input
                   type="email"
                   name="email"
+                  required
                   autocomplete="email"
                   data-i18n-placeholder="ph_email"
                   placeholder="you@email.com"
@@ -279,13 +290,15 @@
                 <textarea
                   name="message"
                   rows="4"
+                  required
                   data-i18n-placeholder="ph_message"
                   placeholder="Treatment interest, preferred days…"
                 ></textarea>
               </label>
               <button type="submit" class="btn btn-primary" data-i18n="form_submit">Send message</button>
+              <p id="form-status" class="form-status" role="status" aria-live="polite" hidden></p>
               <p class="form-note" data-i18n="form_note">
-                This form is a layout placeholder. Connect it to Formspree, Netlify Forms, or your email — all work on free static hosting.
+                Free Web3Forms: add your access key on this form (data-web3forms-key) — see web3forms.com. Works on static hosting.
               </p>
             </form>
           </div>
