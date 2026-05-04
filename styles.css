@@ -21,7 +21,7 @@
   --radius: 12px;
   --radius-lg: 20px;
   --max: 1120px;
-  --header-h: 3.65rem;
+  --header-h: clamp(7.5rem, 26vw, 9rem);
 }
 
 html[lang="he"] {
@@ -102,7 +102,7 @@ a:hover {
   align-items: center;
   flex-wrap: wrap;
   gap: 0.5rem 0.85rem;
-  padding: 0.55rem clamp(1.1rem, 3.5vw, 2rem);
+  padding: 0.65rem clamp(1.1rem, 3.5vw, 2rem);
   min-height: var(--header-h);
   background: color-mix(in srgb, var(--bg) 94%, transparent);
   backdrop-filter: blur(10px);
@@ -158,38 +158,69 @@ a:hover {
 
 .logo {
   display: flex;
-  align-items: center;
-  line-height: 0;
+  flex-direction: column;
+  align-items: flex-start;
+  flex: 1 1 auto;
+  min-width: 0;
+  max-width: min(100%, 32rem);
+  line-height: 1.25;
   text-decoration: none;
   color: var(--ink);
 }
 
 html[dir="rtl"] .logo {
-  justify-content: flex-end;
+  align-items: flex-end;
+  text-align: end;
+}
+
+.logo-stack {
+  display: flex;
+  flex-direction: column;
+  align-items: inherit;
+  gap: 0.35rem;
+  width: 100%;
 }
 
 .logo-img {
   display: block;
-  height: 2.35rem;
+  height: clamp(3.75rem, 14vw, 5.5rem);
   width: auto;
-  max-width: min(200px, 50vw);
+  max-width: min(420px, 90vw);
   object-fit: contain;
-  object-position: left center;
+  object-position: left top;
   transition: opacity 0.2s ease;
 }
 
 html[dir="rtl"] .logo-img {
-  object-position: right center;
+  object-position: right top;
 }
 
 .logo:hover .logo-img {
-  opacity: 0.88;
+  opacity: 0.9;
+}
+
+.logo-tagline {
+  font-family: var(--font-sans);
+  font-size: clamp(0.72rem, 2.1vw, 0.88rem);
+  font-weight: 500;
+  letter-spacing: 0.03em;
+  color: var(--ink-muted);
+  max-width: 26rem;
+  line-height: 1.35;
 }
 
 @media (min-width: 721px) {
+  :root {
+    --header-h: 8.75rem;
+  }
+
   .logo-img {
-    height: 2.55rem;
-    max-width: 220px;
+    height: clamp(4.5rem, 9vw, 6.25rem);
+    max-width: min(480px, 38vw);
+  }
+
+  .logo-tagline {
+    font-size: 0.88rem;
   }
 }
 
@@ -264,7 +295,13 @@ html[dir="rtl"] .logo-img {
   }
 
   .site-header {
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    align-items: flex-start;
+  }
+
+  .logo {
+    flex: 1 1 calc(100% - 3.25rem);
+    max-width: calc(100vw - 2.75rem);
   }
 
   .site-nav {

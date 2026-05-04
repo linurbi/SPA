@@ -6,7 +6,7 @@
       meta_desc:
         "Thai-only massage and spa in Jerusalem — Sabai Dee Thai massage & Spa (สบายดี). Rooted in Thailand. Booking and visit details.",
       logo_aria: "Sabai Dee Thai massage & Spa — home",
-      logo_alt: "Sabai Dee Thai massage & Spa — logo",
+      logo_tagline: "Sabai Dee Thai massage & Spa",
       nav_about: "About",
       nav_treatments: "Treatments",
       nav_contact: "Contact",
@@ -77,7 +77,7 @@
       meta_desc:
         "עיסוי וספא תאילנדי בלבד בירושלים — Sabai Dee Thai massage & Spa. שורשים בתאילנד. זימון ופרטי הגעה.",
       logo_aria: "Sabai Dee Thai massage & Spa — דף הבית",
-      logo_alt: "לוגו Sabai Dee Thai massage & Spa",
+      logo_tagline: "Sabai Dee Thai massage & Spa · סבאי די עיסוי תאילנדי וספא",
       nav_about: "אודות",
       nav_treatments: "טיפולים",
       nav_contact: "צור קשר",
@@ -148,7 +148,7 @@
       meta_desc:
         "นวดและสปาแบบไทยล้วนในเยรูซาเล็ม — Sabai Dee Thai massage & Spa รากฐานจากไทย การจองและที่อยู่",
       logo_aria: "Sabai Dee Thai massage & Spa — หน้าแรก",
-      logo_alt: "โลโก้ Sabai Dee Thai massage & Spa",
+      logo_tagline: "Sabai Dee Thai massage & Spa",
       nav_about: "เกี่ยวกับเรา",
       nav_treatments: "ทรีตเมนต์",
       nav_contact: "ติดต่อ",
