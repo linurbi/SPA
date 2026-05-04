@@ -58,10 +58,10 @@
       form_success: "Thank you — we received your message and will reply soon.",
       form_error: "Something went wrong. Please try again or email us directly.",
       form_need_key:
-        "Form is not connected yet: add your free Web3Forms access key on the form tag (data-web3forms-key) in index.html — see web3forms.com.",
+        "Form is not connected yet: create a form at formspree.io and set data-formspree-id on the form in index.html to your form id (the letters after /f/ in the endpoint URL).",
       form_email_subject: "Sabai Dee — website contact",
       form_note:
-        "Uses Web3Forms (free, works on GitHub Pages). Create a key at web3forms.com, paste it into this page’s form as data-web3forms-key=\"YOUR_KEY\" in index.html — submissions go to the email you set there.",
+        "Uses Formspree (free tier, works on static hosting). Create a form at formspree.io, copy its id, and set data-formspree-id=\"YOUR_ID\" on the form in index.html.",
       visit_h2: "Visit us",
       visit_kicker: "Address",
       address_line1: "[Street & number]",
@@ -135,10 +135,10 @@
       form_success: "תודה — קיבלנו את ההודעה ונחזור אליכם בקרוב.",
       form_error: "משהו השתבש. נסו שוב או כתבו אלינו במייל ישירות.",
       form_need_key:
-        "הטופס עדיין לא מחובר: הוסיפו מפתח Web3Forms חינמי בתג הטופס (data-web3forms-key) ב־index.html — ראו web3forms.com.",
+        "הטופס עדיין לא מחובר: צרו טופס ב־formspree.io והגדירו ב־index.html ב־data-formspree-id את מזהה הטופס (האותיות אחרי /f/ בכתובת).",
       form_email_subject: "Sabai Dee — פנייה מהאתר",
       form_note:
-        "באמצעות Web3Forms (חינמי, עובד ב־GitHub Pages). צרו מפתח ב־web3forms.com והדביקו בטופס ב־index.html כ־data-web3forms-key=\"המפתח\" — ההודעות יגיעו לדוא\"ל שהגדרתם שם.",
+        "באמצעות Formspree (שכבה חינמית, מתאים לאחסון סטטי). צרו טופס ב־formspree.io, העתיקו את המזהה, והגדירו data-formspree-id=\"המזהה\" על תג הטופס ב־index.html.",
       visit_h2: "לבקר אותנו",
       visit_kicker: "כתובת",
       address_line1: "[רחוב ומספר]",
@@ -212,10 +212,10 @@
       form_success: "ขอบคุณ — เราได้รับข้อความแล้วและจะตอบกลับโดยเร็ว",
       form_error: "เกิดข้อผิดพลาด ลองอีกครั้งหรือส่งอีเมลหาเราโดยตรง",
       form_need_key:
-        "ยังไม่ได้เชื่อมฟอร์ม: เพิ่มรหัส Web3Forms ฟรีที่แท็กฟอร์ม (data-web3forms-key) ใน index.html — ดูที่ web3forms.com",
+        "ยังไม่ได้เชื่อมฟอร์ม: สร้างฟอร์มที่ formspree.io แล้วตั้ง data-formspree-id ใน index.html เป็นรหัสฟอร์ม (ส่วนหลัง /f/ ใน URL)",
       form_email_subject: "Sabai Dee — ติดต่อจากเว็บไซต์",
       form_note:
-        "ใช้ Web3Forms (ฟรี ใช้กับ GitHub Pages ได้) สร้างรหัสที่ web3forms.com แล้ววางในแท็กฟอร์มเป็น data-web3forms-key=\"รหัส\" ใน index.html — ข้อความจะไปที่อีเมลที่ตั้งไว้",
+        "ใช้ Formspree (แพ็กฟรี ใช้กับโฮสติ้งสแตติกได้) สร้างฟอร์มที่ formspree.io คัดลอก id แล้วตั้ง data-formspree-id=\"ID\" บนแท็กฟอร์มใน index.html",
       visit_h2: "แวะมาเยี่ยม",
       visit_kicker: "ที่อยู่",
       address_line1: "[ถนนและเลขที่]",

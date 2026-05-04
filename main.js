@@ -129,14 +129,14 @@
       var dict = spaDict();
       if (!dict) return;
 
-      var key = (contactForm.getAttribute("data-web3forms-key") || "").trim();
-      if (!key) {
+      var formId = (contactForm.getAttribute("data-formspree-id") || "").trim();
+      if (!formId) {
         setFormStatus("error", dict.form_need_key);
         return;
       }
 
-      var hp = contactForm.querySelector('input[name="botcheck"]');
-      if (hp && hp.checked) return;
+      var gotcha = contactForm.querySelector('input[name="_gotcha"]');
+      if (gotcha && (gotcha.value || "").trim() !== "") return;
 
       if (!contactForm.reportValidity()) return;
 
@@ -153,31 +153,40 @@
         btn.textContent = dict.form_sending;
       }
 
-      fetch("https://api.web3forms.com/submit", {
+      var fd = new FormData();
+      fd.append("name", name.trim());
+      fd.append("email", email.trim());
+      fd.append("message", message.trim());
+      fd.append("_subject", dict.form_email_subject);
+      fd.append("_replyto", email.trim());
+
+      var endpoint = "https://formspree.io/f/" + encodeURIComponent(formId);
+
+      fetch(endpoint, {
         method: "POST",
-        headers: { "Content-Type": "application/json", Accept: "application/json" },
-        body: JSON.stringify({
-          access_key: key,
-          subject: dict.form_email_subject,
-          name: name.trim(),
-          email: email.trim(),
-          message: message.trim(),
-        }),
+        body: fd,
+        headers: { Accept: "application/json" },
       })
         .then(function (res) {
           return res.json().catch(function () {
             return {};
           }).then(function (data) {
-            return { ok: res.ok, data: data };
+            return { ok: res.ok, status: res.status, data: data };
           });
         })
         .then(function (r) {
-          if (r.ok && r.data && r.data.success) {
+          if (r.ok && r.data && (r.data.ok === true || r.data.next)) {
             setFormStatus("success", dict.form_success);
             contactForm.reset();
           } else {
-            var msg =
-              (r.data && (r.data.message || r.data.error)) || dict.form_error;
+            var msg = dict.form_error;
+            if (r.data) {
+              if (typeof r.data.error === "string") msg = r.data.error;
+              else if (r.data.errors && typeof r.data.errors === "object") {
+                var first = Object.keys(r.data.errors)[0];
+                if (first && r.data.errors[first]) msg = String(r.data.errors[first]);
+              }
+            }
             setFormStatus("error", msg);
           }
         })
