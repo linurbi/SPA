@@ -1,10 +1,11 @@
-/* Ann Spa — copy for EN / עברית / ไทย */
+/* Sabaydee Thai Massage & Spa — EN / עברית / ไทย */
 (function (global) {
   var T = {
     en: {
-      meta_title: "Ann Spa — Jerusalem",
+      meta_title: "Sabaydee Thai Massage & Spa — Jerusalem",
       meta_desc:
-        "Massage and wellness in Jerusalem — treatments, booking, and visit details.",
+        "Authentic Thai massage and spa in Jerusalem — Sabaydee / สบายดี, treatments, booking, and visit details.",
+      logo_aria: "Sabaydee Thai Massage and Spa — home",
       nav_about: "About",
       nav_treatments: "Treatments",
       nav_contact: "Contact",
@@ -12,33 +13,33 @@
       nav_open: "Open menu",
       nav_close: "Close menu",
       lang_label: "Language",
-      hero_eyebrow: "Jerusalem · Massage & wellness",
+      hero_eyebrow: "Jerusalem · Thai massage & spa",
       hero_title_1: "Stillness,",
       hero_title_em: "made tangible.",
       hero_lede:
-        "A calm space for therapeutic massage and restorative bodywork — crafted sessions, attentive care, and the quiet luxury of time that belongs only to you.",
+        "Traditional Thai techniques, warm oil when you want it, and quiet attention — where สบายดี meets סבבה, and your time is truly yours.",
       hero_btn_primary: "Book or inquire",
       hero_btn_ghost: "View treatments",
       about_h2: "About",
       about_kicker: "Who we are",
       about_p1:
-        "Ann Spa is a new wellness studio in Jerusalem, built around the idea that real rest is not an indulgence — it is maintenance. We focus on massage and body therapies that reduce tension, improve mobility, and help you return to your day feeling grounded.",
+        "Sabaydee Thai Massage & Spa in Jerusalem is named after สบายดี — Thai for feeling comfortable and at ease — a spirit that sits nicely next to the Hebrew סבבה. We focus on Thai-style bodywork and calm spa rituals, with pressure and flow adjusted to you.",
       about_p2:
         "Every session is tailored: we listen, adjust pressure and technique, and hold a peaceful environment so you can fully switch off. Whether you need recovery after travel, desk work, or simply the pace of the city, you are welcome here.",
       treatments_h2: "Treatments",
       treatments_kicker: "What we offer",
-      t1_h: "Swedish & relaxation",
+      t1_h: "Traditional Thai massage",
       t1_p:
-        "Long, flowing strokes and gentle-to-moderate pressure to calm the nervous system and ease everyday stress.",
-      t2_h: "Deep tissue & therapeutic",
+        "Mat-based classic Nuad Thai: rhythmic pressure, stretching, and energy lines — clothes on, deep release without oil.",
+      t2_h: "Thai oil & aromatherapy",
       t2_p:
-        "Targeted work on chronic tight areas — shoulders, lower back, legs — with clear communication on depth and comfort.",
-      t3_h: "Sports & recovery",
+        "Slow flowing strokes with warm oil and optional essential oils — ideal when you want deep relaxation and soft skin.",
+      t3_h: "Herbal compress & heat",
       t3_p:
-        "Support for active bodies: flush fatigue, improve range of motion, and complement your training or hiking in and around the city.",
-      t4_h: "Hot stone & add-ons",
+        "Steamed Thai herbal bundles to warm muscles, ease stiffness, and add an aromatic layer to your session — often paired with massage.",
+      t4_h: "Foot reflexology & add-ons",
       t4_p:
-        "Optional enhancements where available — ask when you book. We keep the menu focused so quality stays consistent.",
+        "Foot massage and reflex-style pressure, plus extras like hot stones or scalp care when available — ask when you book.",
       contact_h2: "Contact",
       contact_kicker: "We reply personally",
       contact_intro:
@@ -61,18 +62,20 @@
       visit_note: "Transit and parking notes can go here once finalized.",
       map_placeholder:
         "Embed Google Maps or OpenStreetMap — paste the iframe from Share → Embed on your pin.",
-      footer_tag: "Ann Spa · Jerusalem",
+      footer_tag: "Sabaydee Thai Massage & Spa · Jerusalem",
       footer_contact: "Contact",
-      img_hero_alt: "Calm massage and spa atmosphere",
+      img_hero_alt: "Calm Thai massage and spa atmosphere",
       img_about_alt: "Peaceful treatment space with natural light",
-      img_t1_alt: "Relaxing Swedish-style massage",
-      img_t2_alt: "Therapeutic deep tissue work",
-      img_t3_alt: "Recovery and sports massage",
-      img_t4_alt: "Warm stones and spa details",
+      img_t1_alt: "Traditional Thai massage on a mat",
+      img_t2_alt: "Thai oil massage and aromatherapy",
+      img_t3_alt: "Herbal compress and warm spa ritual",
+      img_t4_alt: "Foot massage and spa details",
     },
     he: {
-      meta_title: "אן ספא — ירושלים",
-      meta_desc: "עיסוי ובריאות בירושלים — סוגי טיפולים, יצירת קשר ופרטי ביקור.",
+      meta_title: "Sabaydee — עיסוי תאילנדי וספא, ירושלים",
+      meta_desc:
+        "עיסוי תאילנדי וספא בירושלים — סבאי די (สบายดี), סוגי טיפולים, זימון ופרטי הגעה.",
+      logo_aria: "Sabaydee עיסוי תאילנדי וספא — דף הבית",
       nav_about: "אודות",
       nav_treatments: "טיפולים",
       nav_contact: "צור קשר",
@@ -80,33 +83,33 @@
       nav_open: "פתח תפריט",
       nav_close: "סגור תפריט",
       lang_label: "שפה",
-      hero_eyebrow: "ירושלים · עיסוי ובריאות",
+      hero_eyebrow: "ירושלים · עיסוי תאילנדי וספא",
       hero_title_1: "שקט",
       hero_title_em: "שנוגע בגוף.",
       hero_lede:
-        "מרחב רגוע לעיסוי טיפולי ולטיפולי גוף משקמים — מפגשים מותאמים אישית, הקשבה אמיתית, והמותרות השקטה של זמן ששייך רק לך.",
+        "טכניקות תאילנדיות מסורתיות, שמן חם כשמתאים, והקשבה שקטה — המקום שבו สบายดี פוגש את העברית »סבבה«, והזמן באמת שלכם.",
       hero_btn_primary: "זימון או שאלה",
       hero_btn_ghost: "לסוגי הטיפולים",
       about_h2: "אודות",
       about_kicker: "מי אנחנו",
       about_p1:
-        "אן ספא הוא סטודיו חדש לבריאות בירושלים, שנבנה סביב הרעיון שמנוחה אמיתית אינה פינוק — היא תחזוקה. אנחנו מתמקדים בעיסוי ובטיפולי גוף שמפחיתים מתח, משפרים תנועתיות, ועוזרים לך לחזור ליום עם תחושת עמידה בקרקע.",
+        "Sabaydee תאי מסאז' וספא בירושלים נקרא על שם สบายดี — בתאית: להרגיש נוח ובנחת, רוח שיושבת יפה ליד המילה העברית »סבבה«. אנחנו מתמקדים בעבודת גוף בסגנון תאילנדי ובריטואלי ספא שקטים, עם התאמת עוצמה וקצב אישית.",
       about_p2:
         "כל מפגש מותאם: אנחנו מקשיבים, מתאימים עוצמה וטכניקה, ושומרים על סביבה שלווה כדי שתוכל באמת להתנתק. בין אם צריך התאוששות אחרי נסיעות, עבודה מול מחשב, או קצב העיר — אתם מוזמנים.",
       treatments_h2: "טיפולים",
       treatments_kicker: "מה אנחנו מציעים",
-      t1_h: "שוודי והרפיה",
+      t1_h: "עיסוי תאילנדי מסורתי",
       t1_p:
-        "מחוות ארוכות וזורמות ולחץ עדין־בינוני להרגעת מערכת העצבים והפחתת מתח יומיומי.",
-      t2_h: "רקמות עמוקות וטיפולי",
+        "נואד תאי קלאסי על מזרן: לחץ קצבי, מתיחות וקווי אנרגיה — עם בגדים, שחרור עמוק בלי שמן.",
+      t2_h: "שמן תאילנדי וארומתרפיה",
       t2_p:
-        "עבודה ממוקדת באזורים שחוזרים להתכווצות — כתפיים, גב תחתון, רגליים — עם תקשורת ברורה על עומק ונוחות.",
-      t3_h: "ספורט והתאוששות",
+        "מחוות איטיות וזורמות עם שמן חם ושמנים אתריים לפי בחירה — מושלם להרפיה עמוקה ולעור רך.",
+      t3_h: "כרית עשבים וחום",
       t3_p:
-        "תמיכה לגוף פעיל: שחרור עייפות, שיפור טווח תנועה, והשלמה לאימונים או לטיולים בעיר ובסביבה.",
-      t4_h: "אבנים חמות ותוספות",
+        "שקית עשבים תאילנדית מחוממת לשרירים תפוסים, להקלה בעצימות ולשכבת ריח — לרוב בשילוב עם עיסוי.",
+      t4_h: "רפלקסולוגיה כפות רגליים ותוספות",
       t4_p:
-        "העשרות אופציונליות כשזמין — שאלו בזימון. אנחנו שומרים על תפריט ממוקד כדי לשמור על איכות עקבית.",
+        "עיסוי ולחץ בסגנון רפלקס בכפות הרגליים, בתוספת אבנים חמות או טיפול בקרקפת כשזמין — שאלו בזימון.",
       contact_h2: "צור קשר",
       contact_kicker: "עונים באופן אישי",
       contact_intro:
@@ -129,19 +132,20 @@
       visit_note: "הערות תחבורה וחניה — יתווספו כשיהיו סופיות.",
       map_placeholder:
         "הטמיעו מפת Google או OpenStreetMap — הדביקו iframe משיתוף → הטמעה בסימון המיקום.",
-      footer_tag: "אן ספא · ירושלים",
+      footer_tag: "Sabaydee עיסוי תאילנדי וספא · ירושלים",
       footer_contact: "צור קשר",
       img_hero_alt: "אווירת ספא ועיסוי רגועה",
       img_about_alt: "חלל טיפולים שקט עם אור טבעי",
-      img_t1_alt: "עיסוי הרפיה בסגנון שוודי",
-      img_t2_alt: "עבודה טיפולית על רקמות עמוקות",
-      img_t3_alt: "עיסוי התאוששות וספורט",
-      img_t4_alt: "אבנים חמות ופרטי ספא",
+      img_t1_alt: "עיסוי תאילנדי מסורתי על מזרן",
+      img_t2_alt: "עיסוי שמן תאילנדי וארומתרפיה",
+      img_t3_alt: "כרית עשבים חמה וריטואל ספא",
+      img_t4_alt: "עיסוי כפות רגליים ופרטי ספא",
     },
     th: {
-      meta_title: "Ann Spa — เยรูซาเล็ม",
+      meta_title: "Sabaydee Thai Massage & Spa — เยรูซาเล็ม",
       meta_desc:
-        "นวดและเวลเนสในเยรูซาเล็ม — ประเภททรีตเมนต์ การติดต่อ และที่อยู่",
+        "นวดไทยและสปาในเยรูซาเล็ม — Sabaydee (สบายดี) บริการ การจอง และที่อยู่",
+      logo_aria: "Sabaydee Thai Massage and Spa — หน้าแรก",
       nav_about: "เกี่ยวกับเรา",
       nav_treatments: "ทรีตเมนต์",
       nav_contact: "ติดต่อ",
@@ -149,33 +153,33 @@
       nav_open: "เปิดเมนู",
       nav_close: "ปิดเมนู",
       lang_label: "ภาษา",
-      hero_eyebrow: "เยรูซาเล็ม · นวดและเวลเนส",
+      hero_eyebrow: "เยรูซาเล็ม · นวดไทยและสปา",
       hero_title_1: "ความนิ่ง",
       hero_title_em: "ที่สัมผัสได้จริง",
       hero_lede:
-        "พื้นที่สงบสำหรับนวดบำบัดและการดูแลร่างกายให้ฟื้นฟู — คิวที่ออกแบบเฉพาะคุณ การดูแลใส่ใจ และความหรูหราแบบเงียบๆ ของเวลาที่เป็นของคุณเพียงคนเดียว",
+        "เทคนิคนวดไทยดั้งเดิม น้ำมันอุ่นเมื่อคุณต้องการ และการดูแลอย่างตั้งใจ — ที่ที่ «สบายดี» กับ «סבבה» พบกัน และเวลาของคุณเป็นของคุณจริงๆ",
       hero_btn_primary: "จองหรือสอบถาม",
       hero_btn_ghost: "ดูทรีตเมนต์",
       about_h2: "เกี่ยวกับเรา",
       about_kicker: "เราเป็นใคร",
       about_p1:
-        "Ann Spa คือสตูดิโอเวลเนสใหม่ในเยรูซาเล็ม ที่เชื่อว่าการพักผ่อนที่แท้จริงไม่ใช่ความฟุ่มเฟือย แต่เป็นสิ่งที่ต้องดูแลเป็นประจำ เราเน้นนวดและบำบัดร่างกายเพื่อคลายความตึง เพิ่มการเคลื่อนไหว และช่วยให้คุณกลับสู่วันใหม่ด้วยความรู้สึกมั่นคง",
+        "Sabaydee Thai Massage & Spa ในเยรูซาเล็ม ตั้งชื่อตามคำว่า «สบายดี» — สบายกายสบายใจ — ซึ่งเข้ากันได้ดีกับคำว่า «סבבה» ในภาษาฮีบรู เราเน้นนวดสไตล์ไทยและกิจกรรมสปาที่เงียบสงบ ปรับแรงกดและจังหวะให้เหมาะกับคุณ",
       about_p2:
         "ทุกเซสชันปรับให้เหมาะกับคุณ: เราฟัง ปรับแรงกดและเทคนิค และรักษาบรรยากาศเงียบสงบเพื่อให้คุณสลัดความวุ่นวายได้จริงๆ ไม่ว่าจะฟื้นหลังเดินทาง งานโต๊ะ หรือจังหวะชีวิตในเมือง — ยินดีต้อนรับ",
       treatments_h2: "ทรีตเมนต์",
       treatments_kicker: "บริการของเรา",
-      t1_h: "สวีเดนและผ่อนคลาย",
+      t1_h: "นวดไทยแผนโบราณ",
       t1_p:
-        "จังหวะยาวไหลลื่นและแรงกดระดับเบาถึงปานกลาง เพื่อให้ระบบประสาทสงบและคลายความเครียดในชีวิตประจำวัน",
-      t2_h: "ดีพทิชชูและบำบัดเฉพาะจุด",
+        "นวดไทยคลาสสิกบนเสื่อ: จังหวะกด ยืดเหยียด และเส้นพลังงาน — ใส่เสื้อผ้า คลายความตึงลึกโดยไม่ใช้น้ำมัน",
+      t2_h: "นวดน้ำมันไทยและอโรมาเธอราพี",
       t2_p:
-        "เน้นบริเวณที่เกร็งเรื้อรัง — ไหล่ หลังส่วนล่าง ขา — โดยสื่อสารชัดเจนเรื่องความลึกและความสบาย",
-      t3_h: "สปอร์ตและฟื้นฟู",
+        "ลูบไล้ช้าๆ ด้วยน้ำมันอุ่นและน้ำมันหอมระเหยตามต้องการ — เหมาะเมื่อต้องการผ่อนคลายลึกและผิวนุ่ม",
+      t3_h: "ประคบสมุนไพรและความร้อน",
       t3_p:
-        "สนับสนุนร่างกายที่เคลื่อนไหว: ช่วยระบายความล้า เพิ่มช่วงการเคลื่อนไหว และเสริมการฝึกหรือเดินป่าในและรอบเมือง",
-      t4_h: "หินร้อนและบริการเสริม",
+        "ลูกประคบสมุนไพรไทยอุ่นๆ ช่วยคลายกล้ามเนื้อ ลดความตึง และเพิ่มกลิ่นหอม — มักจับคู่กับนวด",
+      t4_h: "นวดฝ่าเท้าและบริการเสริม",
       t4_p:
-        "ตัวเลือกเสริมเมื่อมีให้บริการ — สอบถามตอนจอง เรารักษาเมนูให้โฟกัสเพื่อคุณภาพที่สม่ำเสมอ",
+        "นวดและกดจุดฝ่าเท้าแบบรีเฟลกซ์ พร้อมตัวเลือกเช่นหินร้อนหรือดูแลหนังศีรษะเมื่อมี — สอบถามตอนจอง",
       contact_h2: "ติดต่อ",
       contact_kicker: "ตอบกลับด้วยตนเอง",
       contact_intro:
@@ -198,14 +202,14 @@
       visit_note: "รายละเอียดขนส่งสาธารณะและที่จอดรถ — จะเพิ่มเมื่อพร้อม",
       map_placeholder:
         "ฝัง Google Maps หรือ OpenStreetMap — วาง iframe จาก Share → Embed ที่หมุดของคุณ",
-      footer_tag: "Ann Spa · เยรูซาเล็ม",
+      footer_tag: "Sabaydee Thai Massage & Spa · เยรูซาเล็ม",
       footer_contact: "ติดต่อ",
       img_hero_alt: "บรรยากาศสปาและนวดที่ผ่อนคลาย",
       img_about_alt: "ห้องทรีตเมนต์เงียบสงบแสงธรรมชาติ",
-      img_t1_alt: "นวดผ่อนคลายสไตล์สวีเดน",
-      img_t2_alt: "นวดดีพทิชชูเชิงบำบัด",
-      img_t3_alt: "นวดฟื้นฟูและสปอร์ต",
-      img_t4_alt: "หินร้อนและรายละเอียดสปา",
+      img_t1_alt: "นวดไทยแบบดั้งเดิมบนเสื่อ",
+      img_t2_alt: "นวดน้ำมันไทยและอโรมาเธอราพี",
+      img_t3_alt: "ประคบสมุนไพรและพิธีกรรมสปา",
+      img_t4_alt: "นวดฝ่าเท้าและรายละเอียดสปา",
     },
   };
 
@@ -217,18 +221,22 @@
     return "en";
   }
 
-  var LANG_KEY = "ann-spa-lang";
-  var LANG_KEY_LEGACY = "linur-spa-lang";
+  var LANG_KEY = "sabai-spa-lang";
+  var LANG_KEY_LEGACY = ["ann-spa-lang", "linur-spa-lang"];
 
   function getStoredLang() {
     try {
       var s = global.localStorage.getItem(LANG_KEY);
       if (s === "en" || s === "he" || s === "th") return s;
-      s = global.localStorage.getItem(LANG_KEY_LEGACY);
-      if (s === "en" || s === "he" || s === "th") {
-        global.localStorage.setItem(LANG_KEY, s);
-        global.localStorage.removeItem(LANG_KEY_LEGACY);
-        return s;
+      for (var i = 0; i < LANG_KEY_LEGACY.length; i++) {
+        s = global.localStorage.getItem(LANG_KEY_LEGACY[i]);
+        if (s === "en" || s === "he" || s === "th") {
+          global.localStorage.setItem(LANG_KEY, s);
+          LANG_KEY_LEGACY.forEach(function (k) {
+            global.localStorage.removeItem(k);
+          });
+          return s;
+        }
       }
     } catch (e) {}
     return null;
@@ -237,7 +245,9 @@
   function setStoredLang(code) {
     try {
       global.localStorage.setItem(LANG_KEY, code);
-      global.localStorage.removeItem(LANG_KEY_LEGACY);
+      LANG_KEY_LEGACY.forEach(function (k) {
+        global.localStorage.removeItem(k);
+      });
     } catch (e) {}
   }
 
