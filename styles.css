@@ -104,7 +104,7 @@ a:hover {
   flex-wrap: wrap;
   align-items: center;
   gap: 0.2rem 0.45rem;
-  padding: 0.2rem clamp(0.5rem, 2vw, 0.85rem);
+  padding: 0.2rem clamp(1.25rem, 4vw, 2.5rem);
   /* Do not tie min-height to --header-h (avoids locking a bad first measure). */
   background: var(--bg);
   border-bottom: 1px solid rgba(22, 21, 18, 0.06);
@@ -133,10 +133,10 @@ a:hover {
     flex: 1 1 10rem;
     justify-content: flex-end;
   }
-}
 
-html[dir="rtl"] .header-brand {
-  justify-content: flex-end;
+  html[dir="rtl"] .header-bar {
+    justify-content: flex-start;
+  }
 }
 
 .header-spacer {
@@ -199,8 +199,8 @@ html[dir="rtl"] .header-brand {
 }
 
 html[dir="rtl"] .logo {
-  align-items: flex-end;
-  text-align: end;
+  align-items: flex-start;
+  text-align: start;
 }
 
 .logo-stack {
@@ -228,10 +228,6 @@ html[dir="rtl"] .logo {
   background-color: var(--bg);
   mix-blend-mode: multiply;
   transition: opacity 0.2s ease;
-}
-
-html[dir="rtl"] .logo-img {
-  align-self: flex-end;
 }
 
 .logo:hover .logo-img {
@@ -351,6 +347,10 @@ html[dir="rtl"] .logo-img {
 
   .header-bar {
     justify-content: flex-end;
+  }
+
+  html[dir="rtl"] .header-bar {
+    justify-content: flex-start;
   }
 
   .site-nav {
