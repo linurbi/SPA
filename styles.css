@@ -106,8 +106,7 @@ a:hover {
   gap: 0.2rem 0.45rem;
   padding: 0.2rem clamp(0.5rem, 2vw, 0.85rem);
   /* Do not tie min-height to --header-h (avoids locking a bad first measure). */
-  background: color-mix(in srgb, var(--bg) 94%, transparent);
-  backdrop-filter: blur(10px);
+  background: var(--bg);
   border-bottom: 1px solid rgba(22, 21, 18, 0.06);
 }
 
@@ -214,7 +213,7 @@ html[dir="rtl"] .logo {
   min-width: 0;
 }
 
-/* PNG is 1024×1024; flex default min-width:auto would keep intrinsic ~1024px — break that. */
+/* PNG has a white matte — multiply lets it read as var(--bg) on this page */
 .logo-img {
   display: block;
   flex: 0 0 auto;
@@ -226,6 +225,8 @@ html[dir="rtl"] .logo {
   aspect-ratio: 1;
   object-fit: contain;
   object-position: center center;
+  background-color: var(--bg);
+  mix-blend-mode: multiply;
   transition: opacity 0.2s ease;
 }
 
