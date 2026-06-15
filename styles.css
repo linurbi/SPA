@@ -703,6 +703,29 @@ html[dir="rtl"] .hero-line {
   color: var(--ink-muted);
 }
 
+.about-credentials {
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid var(--line);
+}
+
+.about-credentials-title {
+  margin: 0 0 var(--space-xs);
+  font-family: var(--font-sans);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: var(--eyebrow-track);
+  text-transform: uppercase;
+  color: var(--ink-muted);
+}
+
+.about-credentials p {
+  margin: 0;
+  font-size: 0.98rem;
+  color: var(--ink-muted);
+  line-height: 1.55;
+}
+
 /* Treatments */
 
 .treatments {

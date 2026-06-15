@@ -27,6 +27,9 @@
         "Sabai Dee (สบายดี) is our greeting and our promise: ease in the body. The studio is rooted in Thailand — training and rhythm come from there — and we keep the menu strictly Thai: traditional mat massage, oil massage, herbal compress, foot work, and small spa touches from the same tradition.",
       about_p2:
         "We do not mix in Swedish or other Western styles. Sessions are tuned to you with Thai pressure levels, stretching, and breath — quiet room, clear communication, and respect for how your body feels that day.",
+      about_credentials_h: "Training & credentials",
+      about_ann_p:
+        "Our spa manager, Ann Jamnong, recently completed a training program organized by the Thai Ambassador — with two teachers brought from Thailand on office syndrome (desk-related tension and strain). The certificate was presented by the Thai Ambassador; it joins the three certifications Ann already holds.",
       treatments_h2: "Treatments",
       treatments_kicker: "Thai traditions only",
       t1_h: "Traditional Thai massage",
@@ -104,6 +107,9 @@
         "Sabai Dee (สบายดี) הוא הברכה וההבטחה שלנו: נוחות בגוף. הסטודיו שורש בתאילנד — ההכשרה והקצב מגיעים משם — והתפריט נשאר תאילנדי בלבד: עיסוי מסורתי על מזרן, שמן, כרית עשבים, עבודת רגליים, ומגעי ספא קטנים מאותה מסורת.",
       about_p2:
         "לא משלבים שוודי או סגנונות מערביים אחרים. כל מפגש מכוון אליכם עם רמות לחץ תאילנדיות, מתיחות ונשימה — חדר שקט, תקשורת ברורה, וכבוד לאיך שהגוף מרגיש באותו יום.",
+      about_credentials_h: "השתלמויות ותעודות",
+      about_ann_p:
+        "מנהלת הספא, הגב' Ann Jamnong, סיימה לאחרונה השתלמות שאירגן השגריר התאילנדי, שבמסגרתה הגיעו לישראל שני מורים מטאילנד בנושא תסמונת המשרד (office syndrome). תעודה על ההשתלמות הוענקה על ידי השגריר התאילנדי; תעודה זו מתווספת לשלוש התעודות הקיימות של Ann.",
       treatments_h2: "טיפולים",
       treatments_kicker: "רק מסורת תאילנדית",
       t1_h: "עיסוי תאילנדי מסורתי",
@@ -181,6 +187,9 @@
         "Sabai Dee (สบายดี) คือคำทักทายและคำมั่นของเรา: ความสบายในร่างกาย สตูดิโอมีรากจากไทย — การอบรมและจังหวะมาจากที่นั่น — และเมนูเป็นไทยล้วน: นวดบนเสื่อ นวดน้ำมัน ประคบสมุนไพร นวดเท้า และสัมผัสสปาเล็กๆ จากธรรมเนียมเดียวกัน",
       about_p2:
         "ไม่ผสมสวีเดนหรือสไตล์ตะวันตกอื่น ปรับเซสชันให้คุณด้วยระดับแรงกดแบบไทย การยืด และลมหายใจ — ห้องเงียบ สื่อสารชัดเจน เคารพว่าร่างกายรู้สึกอย่างไรในวันนั้น",
+      about_credentials_h: "การฝึกอบรมและใบรับรอง",
+      about_ann_p:
+        "Ann Jamnong ผู้จัดการสปา เพิ่งจบการฝึกอบรมที่จัดโดยทูตไทย ซึ่งนำครูจากไทยสองท่านมาสอนเรื่องออฟฟิศซินโดรม (อาการจากการทำงานในออฟฟิศ) ได้รับใบรับรองจากทูตไทย และเป็นใบรับรองใบที่สี่ ต่อจากสามใบเดิม",
       treatments_h2: "ทรีตเมนต์",
       treatments_kicker: "เฉพาะประเพณีไทย",
       t1_h: "นวดไทยแผนโบราณ",
