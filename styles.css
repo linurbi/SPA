@@ -851,6 +851,30 @@ html[dir="rtl"] .hero-line {
   font-weight: 500;
 }
 
+.contact-managers {
+  display: flex;
+  flex-direction: column;
+  gap: 0.35rem;
+}
+
+.contact-managers span {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 0.5rem;
+}
+
+.contact-managers a {
+  color: var(--ink);
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.contact-managers a:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
 .contact-form {
   position: relative;
   display: flex;
@@ -982,23 +1006,35 @@ html[dir="rtl"] .hero-line {
 }
 
 .visit-map {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: var(--space-md);
+  position: relative;
+  min-height: 260px;
+  padding: 0;
+  overflow: hidden;
   background: color-mix(in srgb, var(--bg) 8%, transparent);
-  border: 1px dashed color-mix(in srgb, var(--bg) 28%, transparent);
+  border: 1px solid color-mix(in srgb, var(--bg) 20%, transparent);
   border-radius: var(--radius);
   margin: var(--space-sm) 0 0;
-  text-align: center;
+}
+
+.visit-map iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  min-height: 260px;
+  border: 0;
 }
 
 @media (min-width: 768px) {
   .visit-map {
     margin: 0;
-    border: none;
     border-radius: 0;
+    border: none;
     border-inline-start: 1px solid color-mix(in srgb, var(--bg) 15%, transparent);
+    min-height: 100%;
+  }
+
+  .visit-map iframe {
+    min-height: 320px;
   }
 }
 

@@ -16,7 +16,7 @@
       nav_open: "Open menu",
       nav_close: "Close menu",
       lang_label: "Language",
-      hero_eyebrow: "Jerusalem · Thai massage only",
+      hero_eyebrow: "Jerusalem · Ben Sira 3 · Thai massage only",
       hero_title_1: "Stillness,",
       hero_title_em: "made tangible.",
       hero_lede:
@@ -51,7 +51,16 @@
       contact_intro:
         "Send a message with your preferred times and any health notes we should know. We will confirm availability by email or phone.",
       lbl_email: "Email",
-      lbl_phone: "Phone / WhatsApp",
+      lbl_phone_spa: "Booking at the spa",
+      lbl_managers: "Managers",
+      phone_spa_tel: "+97274824666",
+      phone_spa_display: "07-482-4666",
+      manager_ann: "Ann",
+      phone_ann_tel: "+972559906352",
+      phone_ann_display: "055-990-6352",
+      manager_haim: "Haim",
+      phone_haim_tel: "+972548132322",
+      phone_haim_display: "054-813-2322",
       lbl_website: "Website",
       site_link: "sabaidee.co.il",
       contact_email: "hello@sabaidee.co.il",
@@ -72,11 +81,10 @@
         "Uses Formspree (free tier, works on static hosting). Create a form at formspree.io, copy its id, and set data-formspree-id=\"YOUR_ID\" on the form in index.html.",
       visit_h2: "Visit us",
       visit_kicker: "Address",
-      address_line1: "[Street & number]",
+      address_line1: "3 Ben Sira Street",
       address_line2: "Jerusalem, Israel",
-      visit_note: "Transit and parking notes can go here once finalized.",
-      map_placeholder:
-        "Embed Google Maps or OpenStreetMap — paste the iframe from Share → Embed on your pin.",
+      visit_note: "New Thai spa in central Jerusalem — Ben Sira 3.",
+      map_title: "Map — Sabai Dee, Ben Sira 3, Jerusalem",
       footer_tag: "Sabai Dee Thai massage & Spa · Jerusalem",
       footer_contact: "Contact",
       img_hero_alt: "Calm Thai massage and spa atmosphere",
@@ -99,7 +107,7 @@
       nav_open: "פתח תפריט",
       nav_close: "סגור תפריט",
       lang_label: "שפה",
-      hero_eyebrow: "ירושלים · רק עיסוי תאילנדי",
+      hero_eyebrow: "ירושלים · בן סירא 3 · עיסוי תאילנדי",
       hero_title_1: "שקט",
       hero_title_em: "שנוגע בגוף.",
       hero_lede:
@@ -134,7 +142,16 @@
       contact_intro:
         "שלחו הודעה עם זמנים מועדפים וכל מידע בריאותי שחשוב שנדע. נאשר זמינות במייל או בטלפון.",
       lbl_email: "דוא\"ל",
-      lbl_phone: "טלפון / וואטסאפ",
+      lbl_phone_spa: "זימון בספא",
+      lbl_managers: "מנהלים",
+      phone_spa_tel: "+97274824666",
+      phone_spa_display: "07-482-4666",
+      manager_ann: "אן",
+      phone_ann_tel: "+972559906352",
+      phone_ann_display: "055-990-6352",
+      manager_haim: "חיים",
+      phone_haim_tel: "+972548132322",
+      phone_haim_display: "054-813-2322",
       lbl_website: "אתר",
       site_link: "sabaidee.co.il",
       contact_email: "hello@sabaidee.co.il",
@@ -155,11 +172,10 @@
         "באמצעות Formspree (שכבה חינמית, מתאים לאחסון סטטי). צרו טופס ב־formspree.io, העתיקו את המזהה, והגדירו data-formspree-id=\"המזהה\" על תג הטופס ב־index.html.",
       visit_h2: "לבקר אותנו",
       visit_kicker: "כתובת",
-      address_line1: "[רחוב ומספר]",
-      address_line2: "ירושלים, ישראל",
-      visit_note: "הערות תחבורה וחניה — יתווספו כשיהיו סופיות.",
-      map_placeholder:
-        "הטמיעו מפת Google או OpenStreetMap — הדביקו iframe משיתוף → הטמעה בסימון המיקום.",
+      address_line1: "בן סירא 3",
+      address_line2: "ירושלים",
+      visit_note: "ספא תאילנדי חדש במרכז ירושלים — בן סירא 3.",
+      map_title: "מפה — Sabai Dee, בן סירא 3, ירושלים",
       footer_tag: "Sabai Dee Thai massage & Spa · ירושלים",
       footer_contact: "צור קשר",
       img_hero_alt: "אווירת ספא ועיסוי רגועה",
@@ -182,7 +198,7 @@
       nav_open: "เปิดเมนู",
       nav_close: "ปิดเมนู",
       lang_label: "ภาษา",
-      hero_eyebrow: "เยรูซาเล็ม · เฉพาะนวดไทย",
+      hero_eyebrow: "เยรูซาเล็ม · Ben Sira 3 · เฉพาะนวดไทย",
       hero_title_1: "ความนิ่ง",
       hero_title_em: "ที่สัมผัสได้จริง",
       hero_lede:
@@ -217,7 +233,16 @@
       contact_intro:
         "ส่งข้อความพร้อมเวลาที่สะดวกและหมายเหตุด้านสุขภาพที่เราควรทราบ เราจะยืนยันคิวทางอีเมลหรือโทรศัพท์",
       lbl_email: "อีเมล",
-      lbl_phone: "โทรศัพท์ / WhatsApp",
+      lbl_phone_spa: "จองที่สปา",
+      lbl_managers: "ผู้จัดการ",
+      phone_spa_tel: "+97274824666",
+      phone_spa_display: "07-482-4666",
+      manager_ann: "Ann",
+      phone_ann_tel: "+972559906352",
+      phone_ann_display: "055-990-6352",
+      manager_haim: "Haim",
+      phone_haim_tel: "+972548132322",
+      phone_haim_display: "054-813-2322",
       lbl_website: "เว็บไซต์",
       site_link: "sabaidee.co.il",
       contact_email: "hello@sabaidee.co.il",
@@ -238,11 +263,10 @@
         "ใช้ Formspree (แพ็กฟรี ใช้กับโฮสติ้งสแตติกได้) สร้างฟอร์มที่ formspree.io คัดลอก id แล้วตั้ง data-formspree-id=\"ID\" บนแท็กฟอร์มใน index.html",
       visit_h2: "แวะมาเยี่ยม",
       visit_kicker: "ที่อยู่",
-      address_line1: "[ถนนและเลขที่]",
-      address_line2: "เยรูซาเล็ม อิสราเอล",
-      visit_note: "รายละเอียดขนส่งสาธารณะและที่จอดรถ — จะเพิ่มเมื่อพร้อม",
-      map_placeholder:
-        "ฝัง Google Maps หรือ OpenStreetMap — วาง iframe จาก Share → Embed ที่หมุดของคุณ",
+      address_line1: "3 Ben Sira Street",
+      address_line2: "Jerusalem, Israel",
+      visit_note: "สปาไทยใหม่ใจกลางเยรูซาเล็ม — Ben Sira 3",
+      map_title: "แผนที่ — Sabai Dee, Ben Sira 3, Jerusalem",
       footer_tag: "Sabai Dee Thai massage & Spa · เยรูซาเล็ม",
       footer_contact: "ติดต่อ",
       img_hero_alt: "บรรยากาศสปาและนวดที่ผ่อนคลาย",
@@ -318,6 +342,14 @@
       var key = el.getAttribute("data-i18n-mailto");
       if (key && dict[key] != null) el.setAttribute("href", "mailto:" + dict[key]);
     });
+
+    global.document.querySelectorAll("[data-i18n-tel]").forEach(function (el) {
+      var key = el.getAttribute("data-i18n-tel");
+      if (key && dict[key] != null) el.setAttribute("href", "tel:" + dict[key]);
+    });
+
+    var mapFrame = global.document.querySelector(".visit-map iframe");
+    if (mapFrame && dict.map_title) mapFrame.setAttribute("title", dict.map_title);
 
     global.document.querySelectorAll("[data-i18n]").forEach(function (el) {
       var key = el.getAttribute("data-i18n");
