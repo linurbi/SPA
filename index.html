@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta
       name="description"
-      content="Thai-only massage and spa in Jerusalem — Sabai Dee Thai massage &amp; Spa. Rooted in Thailand. Booking and visit details."
+      content="Thai-only massage and spa in Jerusalem — Sabai Dee Thai massage &amp; Spa. sabaidee.co.il · Rooted in Thailand. Booking and visit details."
     />
+    <link rel="canonical" href="https://sabaidee.co.il/" />
+    <meta property="og:url" content="https://sabaidee.co.il/" />
     <title>Sabai Dee Thai massage &amp; Spa — Jerusalem</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -21,7 +23,7 @@
 
     <header class="site-header">
       <div class="header-brand">
-        <a class="logo" href="#" data-i18n-aria="logo_aria">
+        <a class="logo" href="https://sabaidee.co.il/" data-site-home data-i18n-aria="logo_aria">
           <span class="logo-stack">
             <img
               class="logo-img"
@@ -261,9 +263,17 @@
           <div class="contact-panel">
             <dl class="contact-dl">
               <dt data-i18n="lbl_email">Email</dt>
-              <dd><a href="mailto:hello@sabaideejlm.example">hello@sabaideejlm.example</a></dd>
+              <dd>
+                <a href="mailto:hello@sabaidee.co.il" data-i18n-mailto="contact_email" data-i18n="contact_email"
+                  >hello@sabaidee.co.il</a
+                >
+              </dd>
               <dt data-i18n="lbl_phone">Phone / WhatsApp</dt>
               <dd><a href="tel:+972000000000">+972-XX-XXX-XXXX</a></dd>
+              <dt data-i18n="lbl_website">Website</dt>
+              <dd>
+                <a href="https://sabaidee.co.il/" data-site-home data-i18n="site_link">sabaidee.co.il</a>
+              </dd>
             </dl>
             <!-- Formspree: create a form at https://formspree.io and paste its id (the part after /f/) in data-formspree-id below. -->
             <form
@@ -339,7 +349,10 @@
 
     <footer class="site-footer">
       <p>© <span id="year"></span> <span data-i18n="footer_tag">Sabai Dee Thai massage &amp; Spa · Jerusalem</span></p>
-      <a href="#contact" data-i18n="footer_contact">Contact</a>
+      <p class="footer-links">
+        <a href="https://sabaidee.co.il/" data-site-home data-i18n="site_link">sabaidee.co.il</a>
+        <a href="#contact" data-i18n="footer_contact">Contact</a>
+      </p>
     </footer>
 
     <script src="i18n.js"></script>

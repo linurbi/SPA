@@ -1027,6 +1027,14 @@ html[dir="rtl"] .hero-line {
   margin: 0;
 }
 
+.footer-links {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.35rem 1rem;
+  margin: 0;
+}
+
 .site-footer a {
   font-weight: 500;
 }

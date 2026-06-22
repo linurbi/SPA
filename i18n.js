@@ -1,10 +1,12 @@
 /* Sabai Dee Thai massage & Spa — EN / עברית / ไทย */
 (function (global) {
+  var SITE_URL = "https://sabaidee.co.il";
+
   var T = {
     en: {
       meta_title: "Sabai Dee Thai massage & Spa — Jerusalem",
       meta_desc:
-        "Thai-only massage and spa in Jerusalem — Sabai Dee Thai massage & Spa (สบายดี). Rooted in Thailand. Booking and visit details.",
+        "Thai-only massage and spa in Jerusalem — Sabai Dee Thai massage & Spa (สบายดี). sabaidee.co.il · Rooted in Thailand. Booking and visit details.",
       logo_aria: "Sabai Dee Thai massage & Spa — home",
       logo_tagline: "Sabai Dee Thai massage & Spa",
       nav_about: "About",
@@ -50,6 +52,9 @@
         "Send a message with your preferred times and any health notes we should know. We will confirm availability by email or phone.",
       lbl_email: "Email",
       lbl_phone: "Phone / WhatsApp",
+      lbl_website: "Website",
+      site_link: "sabaidee.co.il",
+      contact_email: "hello@sabaidee.co.il",
       form_name: "Name",
       form_email: "Email",
       form_message: "Message",
@@ -84,7 +89,7 @@
     he: {
       meta_title: "Sabai Dee — עיסוי תאילנדי וספא, ירושלים",
       meta_desc:
-        "עיסוי וספא תאילנדי בלבד בירושלים — Sabai Dee Thai massage & Spa. שורשים בתאילנד. זימון ופרטי הגעה.",
+        "עיסוי וספא תאילנדי בלבד בירושלים — Sabai Dee Thai massage & Spa. sabaidee.co.il · שורשים בתאילנד. זימון ופרטי הגעה.",
       logo_aria: "Sabai Dee Thai massage & Spa — דף הבית",
       logo_tagline: "Sabai Dee Thai massage & Spa · סבאי די עיסוי תאילנדי וספא",
       nav_about: "אודות",
@@ -130,6 +135,9 @@
         "שלחו הודעה עם זמנים מועדפים וכל מידע בריאותי שחשוב שנדע. נאשר זמינות במייל או בטלפון.",
       lbl_email: "דוא\"ל",
       lbl_phone: "טלפון / וואטסאפ",
+      lbl_website: "אתר",
+      site_link: "sabaidee.co.il",
+      contact_email: "hello@sabaidee.co.il",
       form_name: "שם",
       form_email: "דוא\"ל",
       form_message: "הודעה",
@@ -164,7 +172,7 @@
     th: {
       meta_title: "Sabai Dee Thai massage & Spa — เยรูซาเล็ม",
       meta_desc:
-        "นวดและสปาแบบไทยล้วนในเยรูซาเล็ม — Sabai Dee Thai massage & Spa รากฐานจากไทย การจองและที่อยู่",
+        "นวดและสปาแบบไทยล้วนในเยรูซาเล็ม — Sabai Dee Thai massage & Spa · sabaidee.co.il รากฐานจากไทย การจองและที่อยู่",
       logo_aria: "Sabai Dee Thai massage & Spa — หน้าแรก",
       logo_tagline: "Sabai Dee Thai massage & Spa",
       nav_about: "เกี่ยวกับเรา",
@@ -210,6 +218,9 @@
         "ส่งข้อความพร้อมเวลาที่สะดวกและหมายเหตุด้านสุขภาพที่เราควรทราบ เราจะยืนยันคิวทางอีเมลหรือโทรศัพท์",
       lbl_email: "อีเมล",
       lbl_phone: "โทรศัพท์ / WhatsApp",
+      lbl_website: "เว็บไซต์",
+      site_link: "sabaidee.co.il",
+      contact_email: "hello@sabaidee.co.il",
       form_name: "ชื่อ",
       form_email: "อีเมล",
       form_message: "ข้อความ",
@@ -293,6 +304,21 @@
     var titleEl = global.document.querySelector("title");
     if (titleEl) titleEl.textContent = dict.meta_title;
 
+    var canonical = global.document.querySelector('link[rel="canonical"]');
+    if (canonical) canonical.setAttribute("href", SITE_URL + "/");
+
+    var ogUrl = global.document.querySelector('meta[property="og:url"]');
+    if (ogUrl) ogUrl.setAttribute("content", SITE_URL + "/");
+
+    global.document.querySelectorAll("[data-site-home]").forEach(function (el) {
+      el.setAttribute("href", SITE_URL + "/");
+    });
+
+    global.document.querySelectorAll("[data-i18n-mailto]").forEach(function (el) {
+      var key = el.getAttribute("data-i18n-mailto");
+      if (key && dict[key] != null) el.setAttribute("href", "mailto:" + dict[key]);
+    });
+
     global.document.querySelectorAll("[data-i18n]").forEach(function (el) {
       var key = el.getAttribute("data-i18n");
       if (key && dict[key] != null) el.textContent = dict[key];
@@ -328,6 +354,7 @@
   }
 
   global.SPA_I18N = {
+    siteUrl: SITE_URL,
     strings: T,
     detectLang: detectLang,
     getStoredLang: getStoredLang,
