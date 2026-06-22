@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sabai Dee — סטריפ 120×40 ס״מ</title>
+    <link rel="stylesheet" href="print.css" />
+    <style>
+      @page {
+        size: 120cm 40cm;
+        margin: 0;
+      }
+
+      .sheet {
+        width: 120cm;
+        height: 40cm;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 3cm;
+        padding: 3cm 5cm;
+      }
+
+      .sheet::after {
+        content: "";
+        position: absolute;
+        inset: 0;
+        border: 3px solid rgba(107, 83, 68, 0.25);
+        pointer-events: none;
+      }
+
+      .left {
+        display: flex;
+        align-items: center;
+        gap: 3cm;
+        flex: 1;
+        min-width: 0;
+      }
+
+      .logo-mark {
+        width: 28cm;
+        height: 28cm;
+        flex-shrink: 0;
+      }
+
+      .titles .brand-name {
+        font-size: 5.5cm;
+      }
+
+      .titles .brand-sub {
+        font-size: 1.5cm;
+        margin-top: 0.6cm;
+      }
+
+      .titles .tag-he {
+        font-size: 1.35cm;
+        margin-top: 0.5cm;
+        display: block;
+        letter-spacing: 0;
+        text-transform: none;
+        color: var(--ink-muted);
+      }
+
+      .right {
+        text-align: end;
+        flex-shrink: 0;
+        max-width: 42cm;
+      }
+
+      .right .lead {
+        font-family: "Instrument Serif", Georgia, serif;
+        font-size: 3.2cm;
+        line-height: 1.2;
+        margin-bottom: 0.8cm;
+      }
+
+      .right .detail {
+        font-size: 1.45cm;
+        color: var(--ink-muted);
+        line-height: 1.45;
+      }
+
+      .placeholder {
+        opacity: 0.55;
+        font-style: italic;
+      }
+
+      @media screen {
+        body {
+          padding-top: 3rem;
+        }
+
+        .sheet {
+          transform: scale(0.35);
+          transform-origin: top center;
+          margin: 0 auto -26cm;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p class="preview-note">
+      תצוגה מוקטנת — להדפסה: Ctrl+P → PDF 120×40 ס״מ. מתאים לסטריפ / שלט צר.
+    </p>
+    <div class="sheet">
+      <div class="left">
+        <img class="logo-mark" src="../images/logo.png" alt="" />
+        <div class="titles">
+          <div class="brand-name">Sabai Dee</div>
+          <div class="brand-sub">Thai massage &amp; Spa</div>
+          <span class="tag-he">עיסוי תאילנדי וספא · ירושלים</span>
+        </div>
+      </div>
+      <div class="right">
+        <p class="lead">רק עיסוי תאילנדי</p>
+        <p class="detail">
+          <span class="placeholder">[רחוב ומספר]</span><br />
+          <span class="placeholder">+972-XX-XXX-XXXX</span>
+        </p>
+      </div>
+    </div>
+  </body>
+</html>

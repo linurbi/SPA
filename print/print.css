@@ -1,0 +1,91 @@
+/* Shared print brand — Sabai Dee Thai massage & Spa */
+
+@import url("https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap");
+
+:root {
+  --bg: #f3f0ea;
+  --ink: #161512;
+  --ink-muted: #5c5850;
+  --accent: #6b5344;
+  --gold: #c4a882;
+  --pink: #d4849a;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  -webkit-print-color-adjust: exact;
+  print-color-adjust: exact;
+}
+
+body {
+  font-family: "Frank Ruhl Libre", "Segoe UI", Georgia, serif;
+  color: var(--ink);
+  background: #ddd;
+}
+
+.sheet {
+  background: var(--bg);
+  overflow: hidden;
+  position: relative;
+}
+
+.logo-mark {
+  object-fit: contain;
+  mix-blend-mode: multiply;
+}
+
+.brand-name {
+  font-family: "Instrument Serif", "Frank Ruhl Libre", Georgia, serif;
+  font-weight: 400;
+  line-height: 1.05;
+  color: var(--ink);
+}
+
+.brand-sub {
+  font-family: "Frank Ruhl Libre", Georgia, serif;
+  font-weight: 500;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.tag-he {
+  font-size: 0.42em;
+  font-weight: 400;
+  color: var(--ink-muted);
+  letter-spacing: 0.02em;
+  text-transform: none;
+}
+
+.line-gold {
+  height: 2px;
+  background: linear-gradient(to left, transparent, var(--gold), transparent);
+}
+
+.preview-note {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 9999;
+  padding: 0.5rem 1rem;
+  font: 0.85rem/1.4 system-ui, sans-serif;
+  background: #161512;
+  color: #f3f0ea;
+  text-align: center;
+}
+
+@media print {
+  .preview-note {
+    display: none !important;
+  }
+
+  body {
+    background: none;
+  }
+}

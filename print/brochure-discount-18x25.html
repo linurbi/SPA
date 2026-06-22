@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sabai Dee — ברושור הנחה 10% · 18×25 ס״מ</title>
+    <link rel="stylesheet" href="print.css" />
+    <style>
+      @page {
+        size: 18cm 25cm;
+        margin: 0;
+      }
+
+      .sheet {
+        width: 18cm;
+        height: 25cm;
+        padding: 1.1cm 1.2cm 1.2cm;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+      }
+
+      .logo-mark {
+        width: 4.2cm;
+        height: 4.2cm;
+        margin-bottom: 0.35cm;
+      }
+
+      .brand-name {
+        font-size: 1.35cm;
+      }
+
+      .brand-sub {
+        font-size: 0.42cm;
+        margin-top: 0.2cm;
+        letter-spacing: 0.08em;
+      }
+
+      .line-gold {
+        width: 70%;
+        margin: 0.55cm auto;
+      }
+
+      .discount-badge {
+        width: 100%;
+        padding: 0.65cm 0.5cm;
+        margin: 0.35cm 0 0.5cm;
+        border: 2px solid var(--accent);
+        border-radius: 0.35cm;
+        background: color-mix(in srgb, var(--accent) 8%, var(--bg));
+      }
+
+      .discount-badge .label {
+        font-size: 0.38cm;
+        letter-spacing: 0.14em;
+        text-transform: uppercase;
+        color: var(--accent);
+        margin-bottom: 0.15cm;
+      }
+
+      .discount-badge .pct {
+        font-family: "Instrument Serif", Georgia, serif;
+        font-size: 2.2cm;
+        line-height: 1;
+        color: var(--ink);
+      }
+
+      .discount-badge .terms {
+        font-size: 0.34cm;
+        color: var(--ink-muted);
+        margin-top: 0.25cm;
+        line-height: 1.35;
+      }
+
+      .intro {
+        font-size: 0.48cm;
+        line-height: 1.45;
+        color: var(--ink-muted);
+        margin-bottom: 0.45cm;
+        max-width: 14cm;
+      }
+
+      .treatments {
+        list-style: none;
+        font-size: 0.4cm;
+        line-height: 1.55;
+        text-align: start;
+        width: 100%;
+        padding: 0 0.3cm;
+        margin-bottom: 0.5cm;
+        color: var(--ink);
+      }
+
+      .treatments li::before {
+        content: "· ";
+        color: var(--accent);
+      }
+
+      .footer-block {
+        margin-top: auto;
+        width: 100%;
+        padding-top: 0.4cm;
+        border-top: 1px solid rgba(22, 21, 18, 0.12);
+        font-size: 0.38cm;
+        line-height: 1.5;
+        color: var(--ink-muted);
+      }
+
+      .footer-block strong {
+        color: var(--ink);
+        font-weight: 600;
+      }
+
+      .placeholder {
+        opacity: 0.55;
+        font-style: italic;
+      }
+
+      .code {
+        display: inline-block;
+        margin-top: 0.25cm;
+        padding: 0.12cm 0.35cm;
+        border: 1px dashed var(--accent);
+        border-radius: 0.15cm;
+        font-size: 0.42cm;
+        letter-spacing: 0.08em;
+        color: var(--accent);
+      }
+
+      @media screen {
+        body {
+          padding: 3rem 1rem 2rem;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+        }
+
+        .sheet {
+          box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p class="preview-note">
+      גודל 18×25 ס״מ — Ctrl+P → PDF. עדכנו תאריך תוקף, כתובת וטלפון לפני הדפסה.
+    </p>
+    <div class="sheet">
+      <img class="logo-mark" src="../images/logo.png" alt="" />
+      <div class="brand-name">Sabai Dee</div>
+      <div class="brand-sub">Thai massage &amp; Spa · ירושלים</div>
+      <div class="line-gold"></div>
+
+      <div class="discount-badge">
+        <div class="label">הנחה לביקור ראשון</div>
+        <div class="pct">10%</div>
+        <p class="terms">בהזמנת טיפול ראשון · לא ניתן לשלב עם מבצעים אחרים</p>
+      </div>
+
+      <p class="intro">
+        עיסוי וספא תאילנדי בלבד — מסורת מלאה מתאילנד, בירושלים.
+      </p>
+
+      <ul class="treatments">
+        <li>עיסוי תאילנדי מסורתי (נואד תאי)</li>
+        <li>עיסוי שמן תאילנדי</li>
+        <li>כרית עשבים וחום</li>
+        <li>עיסוי רגליים תאילנדי</li>
+      </ul>
+
+      <div class="footer-block">
+        <strong class="placeholder">[רחוב ומספר], ירושלים</strong><br />
+        <span class="placeholder">+972-XX-XXX-XXXX</span><br />
+        linurbi.github.io/SPA<br />
+        <span class="code">SABAI10</span><br />
+        <span style="font-size: 0.32cm; margin-top: 0.2cm; display: block">
+          בתוקף עד: <span class="placeholder">[תאריך]</span>
+        </span>
+      </div>
+    </div>
+  </body>
+</html>
