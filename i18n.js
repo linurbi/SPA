@@ -51,7 +51,7 @@
       contact_intro:
         "Send a message with your preferred times and any health notes we should know. We will confirm availability by email or phone.",
       lbl_email: "Email",
-      lbl_phone_spa: "Booking at the spa",
+      lbl_phone_spa: "Appointments",
       lbl_managers: "Managers",
       phone_spa_tel: "+97274824666",
       phone_spa_display: "07-482-4666",
@@ -142,7 +142,7 @@
       contact_intro:
         "שלחו הודעה עם זמנים מועדפים וכל מידע בריאותי שחשוב שנדע. נאשר זמינות במייל או בטלפון.",
       lbl_email: "דוא\"ל",
-      lbl_phone_spa: "זימון בספא",
+      lbl_phone_spa: "זימון תורים",
       lbl_managers: "מנהלים",
       phone_spa_tel: "+97274824666",
       phone_spa_display: "07-482-4666",
