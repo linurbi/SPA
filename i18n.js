@@ -95,9 +95,9 @@
       img_t4_alt: "Feet in a warm soak bowl — Thai foot spa",
     },
     he: {
-      meta_title: "Sabai Dee — עיסוי תאילנדי וספא, ירושלים",
+      meta_title: "עיסוי תאילנדי בירושלים — Sabai Dee | בן סירא 3",
       meta_desc:
-        "עיסוי וספא תאילנדי בלבד בירושלים — Sabai Dee Thai massage & Spa. sabaidee.co.il · שורשים בתאילנד. זימון ופרטי הגעה.",
+        "עיסוי תאילנדי וספא תאילנדי בלבד — Sabai Dee, רחוב בן סירא 3 ירושלים. עיסוי מסורתי, שמן תאילנדי, כרית עשבים. זימון 07-482-4666 · sabaidee.co.il",
       logo_aria: "Sabai Dee Thai massage & Spa — דף הבית",
       logo_tagline: "Sabai Dee Thai massage & Spa · סבאי די עיסוי תאילנדי וספא",
       nav_about: "אודות",
@@ -111,13 +111,13 @@
       hero_title_1: "שקט",
       hero_title_em: "שנוגע בגוף.",
       hero_lede:
-        "טכניקות תאילנדיות שנלמדו ומתורגלות בתאילנד — כאן בירושלים, בידיים רגועות ובלי למהר. רק עיסוי וטיפולי ספא בסגנון תאילנדי.",
+        "ספא Sabai Dee ברחוב בן סירא 3, ירושלים — עיסוי תאילנדי מסורתי, עיסוי שמן תאילנדי וטיפולי ספא תאילנדי בלבד. טכניקות שנלמדו בתאילנד, בידיים רגועות ובלי למהר.",
       hero_btn_primary: "זימון או שאלה",
       hero_btn_ghost: "לסוגי הטיפולים",
       about_h2: "אודות",
       about_kicker: "מתאילנד, בירושלים",
       about_p1:
-        "Sabai Dee (สบายดี) הוא הברכה וההבטחה שלנו: נוחות בגוף. הסטודיו שורש בתאילנד — ההכשרה והקצב מגיעים משם — והתפריט נשאר תאילנדי בלבד: עיסוי מסורתי על מזרן, שמן, כרית עשבים, עבודת רגליים, ומגעי ספא קטנים מאותה מסורת.",
+        "בסבאי די, רחוב בן סירא 3 בירושלים, Sabai Dee (สบายดี) הוא הברכה וההבטחה שלנו: נוחות בגוף. הסטודיו שורש בתאילנד — ההכשרה והקצב מגיעים משם — והתפריט נשאר עיסוי תאילנדי בלבד: עיסוי מסורתי על מזרן, עיסוי שמן תאילנדי, כרית עשבים, עבודת רגליים, ומגעי ספא קטנים מאותה מסורת.",
       about_p2:
         "לא משלבים שוודי או סגנונות מערביים אחרים. כל מפגש מכוון אליכם עם רמות לחץ תאילנדיות, מתיחות ונשימה — חדר שקט, תקשורת ברורה, וכבוד לאיך שהגוף מרגיש באותו יום.",
       about_credentials_h: "השתלמויות ותעודות",
@@ -174,7 +174,8 @@
       visit_kicker: "כתובת",
       address_line1: "בן סירא 3",
       address_line2: "ירושלים",
-      visit_note: "ספא תאילנדי חדש במרכז ירושלים — בן סירא 3.",
+      visit_note:
+        "ספא תאילנדי במרכז ירושלים — בן סירא 3, ליד העיר העתיקה. עיסוי תאילנדי, זימון תורים בטלפון 07-482-4666.",
       map_title: "מפה — Sabai Dee, בן סירא 3, ירושלים",
       footer_tag: "Sabai Dee Thai massage & Spa · ירושלים",
       footer_contact: "צור קשר",
@@ -333,6 +334,26 @@
 
     var ogUrl = global.document.querySelector('meta[property="og:url"]');
     if (ogUrl) ogUrl.setAttribute("content", SITE_URL + "/");
+
+    var ogTitle = global.document.querySelector('meta[property="og:title"]');
+    if (ogTitle) ogTitle.setAttribute("content", dict.meta_title);
+
+    var ogDesc = global.document.querySelector('meta[property="og:description"]');
+    if (ogDesc) ogDesc.setAttribute("content", dict.meta_desc);
+
+    var ogLocale = global.document.querySelector('meta[property="og:locale"]');
+    if (ogLocale) {
+      ogLocale.setAttribute(
+        "content",
+        code === "he" ? "he_IL" : code === "th" ? "th_TH" : "en_IL"
+      );
+    }
+
+    var twTitle = global.document.querySelector('meta[name="twitter:title"]');
+    if (twTitle) twTitle.setAttribute("content", dict.meta_title);
+
+    var twDesc = global.document.querySelector('meta[name="twitter:description"]');
+    if (twDesc) twDesc.setAttribute("content", dict.meta_desc);
 
     global.document.querySelectorAll("[data-site-home]").forEach(function (el) {
       el.setAttribute("href", SITE_URL + "/");
