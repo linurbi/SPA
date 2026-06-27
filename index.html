@@ -378,13 +378,14 @@
                 <a href="https://sabaidee.co.il/" data-site-home data-i18n="site_link">sabaidee.co.il</a>
               </dd>
             </dl>
-            <!-- Formspree: create a form at https://formspree.io and paste its id (the part after /f/) in data-formspree-id below. -->
             <form
               id="contact-form"
               class="contact-form"
-              data-formspree-id="mykqwvrq"
-              novalidate
+              action="https://formspree.io/f/mykqwvrq"
+              method="POST"
             >
+              <input type="hidden" name="_next" value="https://sabaidee.co.il/thank-you.html" />
+              <input type="hidden" name="_subject" value="Sabai Dee — website contact" />
               <label class="form-hp" aria-hidden="true">
                 <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" value="" />
               </label>
@@ -421,10 +422,6 @@
                 ></textarea>
               </label>
               <button type="submit" class="btn btn-primary" data-i18n="form_submit">Send message</button>
-              <p id="form-status" class="form-status" role="status" aria-live="polite" hidden></p>
-              <p class="form-note" data-i18n="form_note">
-                Uses Formspree (free tier on static hosting). Add your form id in index.html (data-formspree-id) from formspree.io.
-              </p>
             </form>
           </div>
         </div>

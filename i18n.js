@@ -77,8 +77,10 @@
       form_need_key:
         "Form is not connected yet: create a form at formspree.io and set data-formspree-id on the form in index.html to your form id (the letters after /f/ in the endpoint URL).",
       form_email_subject: "Sabai Dee — website contact",
-      form_note:
-        "Uses Formspree (free tier, works on static hosting). Create a form at formspree.io, copy its id, and set data-formspree-id=\"YOUR_ID\" on the form in index.html.",
+      thank_you_title: "Thank you",
+      thank_you_lede: "We received your message and will reply soon by email or phone.",
+      thank_you_back: "Back to home",
+      thank_you_call: "Or call for appointments:",
       visit_h2: "Visit us",
       visit_kicker: "Address",
       address_line1: "3 Ben Sira Street",
@@ -168,8 +170,10 @@
       form_need_key:
         "הטופס עדיין לא מחובר: צרו טופס ב־formspree.io והגדירו ב־index.html ב־data-formspree-id את מזהה הטופס (האותיות אחרי /f/ בכתובת).",
       form_email_subject: "Sabai Dee — פנייה מהאתר",
-      form_note:
-        "באמצעות Formspree (שכבה חינמית, מתאים לאחסון סטטי). צרו טופס ב־formspree.io, העתיקו את המזהה, והגדירו data-formspree-id=\"המזהה\" על תג הטופס ב־index.html.",
+      thank_you_title: "תודה — קיבלנו את ההודעה",
+      thank_you_lede: "נחזור אליכם בהקדם במייל או בטלפון.",
+      thank_you_back: "חזרה לדף הבית",
+      thank_you_call: "או לזימון תורים:",
       visit_h2: "לבקר אותנו",
       visit_kicker: "כתובת",
       address_line1: "בן סירא 3",
@@ -260,8 +264,10 @@
       form_need_key:
         "ยังไม่ได้เชื่อมฟอร์ม: สร้างฟอร์มที่ formspree.io แล้วตั้ง data-formspree-id ใน index.html เป็นรหัสฟอร์ม (ส่วนหลัง /f/ ใน URL)",
       form_email_subject: "Sabai Dee — ติดต่อจากเว็บไซต์",
-      form_note:
-        "ใช้ Formspree (แพ็กฟรี ใช้กับโฮสติ้งสแตติกได้) สร้างฟอร์มที่ formspree.io คัดลอก id แล้วตั้ง data-formspree-id=\"ID\" บนแท็กฟอร์มใน index.html",
+      thank_you_title: "ขอบคุณ",
+      thank_you_lede: "เราได้รับข้อความแล้วและจะตอบกลับทางอีเมลหรือโทรศัพท์โดยเร็ว",
+      thank_you_back: "กลับหน้าแรก",
+      thank_you_call: "หรือโทรจอง:",
       visit_h2: "แวะมาเยี่ยม",
       visit_kicker: "ที่อยู่",
       address_line1: "3 Ben Sira Street",
@@ -327,7 +333,13 @@
     if (meta) meta.setAttribute("content", dict.meta_desc);
 
     var titleEl = global.document.querySelector("title");
-    if (titleEl) titleEl.textContent = dict.meta_title;
+    if (titleEl) {
+      if (/thank-you\.html/.test(global.location.pathname) && dict.thank_you_title) {
+        titleEl.textContent = dict.thank_you_title + " — Sabai Dee";
+      } else {
+        titleEl.textContent = dict.meta_title;
+      }
+    }
 
     var canonical = global.document.querySelector('link[rel="canonical"]');
     if (canonical) canonical.setAttribute("href", SITE_URL + "/");

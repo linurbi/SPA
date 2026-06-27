@@ -941,13 +941,53 @@ html[dir="rtl"] .hero-line {
   background: color-mix(in srgb, #8b3a3a 08%, var(--bg-elevated));
 }
 
-.form-note {
-  margin: 0;
-  font-size: 0.82rem;
+.thank-you-page {
+  min-height: calc(100vh - var(--header-h));
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--space-xl) clamp(1.25rem, 4vw, 2.5rem);
+}
+
+.thank-you-card {
+  max-width: 32rem;
+  text-align: center;
+  padding: var(--space-lg);
+  background: var(--bg-elevated);
+  border: 1px solid var(--line);
+  border-radius: var(--radius-lg);
+}
+
+.thank-you-card h1 {
+  font-family: var(--font-serif);
+  font-size: clamp(2rem, 5vw, 2.75rem);
+  font-weight: 400;
+  margin: 0 0 var(--space-sm);
+}
+
+.thank-you-card p {
+  margin: 0 0 var(--space-md);
+  color: var(--ink-muted);
+  line-height: 1.6;
+}
+
+.thank-you-actions {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: var(--space-sm);
+}
+
+.thank-you-phone {
+  font-size: 0.95rem;
   color: var(--ink-muted);
 }
 
-/* Visit */
+.thank-you-phone a {
+  font-weight: 600;
+  color: var(--accent);
+}
+
 
 .visit-card {
   max-width: var(--max);
