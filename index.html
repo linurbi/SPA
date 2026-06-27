@@ -378,13 +378,7 @@
                 <a href="https://sabaidee.co.il/" data-site-home data-i18n="site_link">sabaidee.co.il</a>
               </dd>
             </dl>
-            <form
-              id="contact-form"
-              class="contact-form"
-              action="https://formspree.io/f/mykqwvrq"
-              method="POST"
-            >
-              <input type="hidden" name="_next" value="https://sabaidee.co.il/thank-you.html" />
+            <form id="contact-form" class="contact-form" novalidate>
               <input type="hidden" name="_subject" value="Sabai Dee — website contact" />
               <label class="form-hp" aria-hidden="true">
                 <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" value="" />
@@ -422,6 +416,7 @@
                 ></textarea>
               </label>
               <button type="submit" class="btn btn-primary" data-i18n="form_submit">Send message</button>
+              <p id="form-status" class="form-status" role="alert" aria-live="assertive" hidden></p>
             </form>
           </div>
         </div>

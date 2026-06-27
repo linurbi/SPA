@@ -98,6 +98,9 @@
   requestAnimationFrame(syncHeaderHeight);
 
   var contactForm = document.getElementById("contact-form");
+  var formStatus = document.getElementById("form-status");
+  var formSending = false;
+  var FORMSPREE_ID = "mykqwvrq";
 
   function spaDict() {
     if (!window.SPA_I18N || !window.SPA_I18N.strings) return null;
@@ -105,21 +108,32 @@
     return window.SPA_I18N.strings[lang] || window.SPA_I18N.strings.en;
   }
 
+  function thankYouUrl() {
+    var base = (window.SPA_I18N && window.SPA_I18N.siteUrl) || "";
+    return base ? base + "/thank-you.html" : "thank-you.html";
+  }
+
+  function setFormStatus(type, message) {
+    if (!formStatus) return;
+    formStatus.hidden = false;
+    formStatus.textContent = message;
+    formStatus.classList.remove("is-success", "is-error");
+    if (type === "success") formStatus.classList.add("is-success");
+    else if (type === "error") formStatus.classList.add("is-error");
+  }
+
   if (contactForm) {
     contactForm.addEventListener("submit", function (e) {
+      e.preventDefault();
+
       var dict = spaDict();
       if (!dict) return;
 
       var gotcha = contactForm.querySelector('input[name="_gotcha"]');
-      if (gotcha && (gotcha.value || "").trim() !== "") {
-        e.preventDefault();
-        return;
-      }
+      if (gotcha && (gotcha.value || "").trim() !== "") return;
 
-      if (!contactForm.reportValidity()) {
-        e.preventDefault();
-        return;
-      }
+      if (!contactForm.reportValidity()) return;
+      if (formSending) return;
 
       var subject = contactForm.querySelector('[name="_subject"]');
       if (subject && dict.form_email_subject) {
@@ -127,10 +141,60 @@
       }
 
       var btn = contactForm.querySelector('button[type="submit"]');
+      formSending = true;
+      if (formStatus) {
+        formStatus.hidden = true;
+        formStatus.textContent = "";
+        formStatus.classList.remove("is-success", "is-error");
+      }
       if (btn) {
         btn.disabled = true;
         if (dict.form_sending) btn.textContent = dict.form_sending;
       }
+
+      var fd = new FormData(contactForm);
+
+      fetch("https://formspree.io/f/" + FORMSPREE_ID, {
+        method: "POST",
+        body: fd,
+        headers: { Accept: "application/json" },
+      })
+        .then(function (res) {
+          return res
+            .json()
+            .catch(function () {
+              return {};
+            })
+            .then(function (data) {
+              return { ok: res.ok, data: data };
+            });
+        })
+        .then(function (r) {
+          if (r.ok && r.data && r.data.ok) {
+            window.location.assign(thankYouUrl());
+            return;
+          }
+          var msg = dict.form_error;
+          if (r.data) {
+            if (typeof r.data.error === "string") msg = r.data.error;
+            else if (r.data.errors && typeof r.data.errors === "object") {
+              var first = Object.keys(r.data.errors)[0];
+              if (first && r.data.errors[first]) msg = String(r.data.errors[first]);
+            }
+          }
+          setFormStatus("error", msg);
+        })
+        .catch(function () {
+          setFormStatus("error", dict.form_error);
+        })
+        .finally(function () {
+          formSending = false;
+          if (btn) {
+            btn.disabled = false;
+            var d = spaDict();
+            if (d && d.form_submit) btn.textContent = d.form_submit;
+          }
+        });
     });
   }
 })();
