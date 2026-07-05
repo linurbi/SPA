@@ -1041,6 +1041,22 @@ html[dir="rtl"] .hero-line {
   color: color-mix(in srgb, var(--bg) 72%, transparent);
 }
 
+.visit-hours-label {
+  margin-top: var(--space-md);
+  margin-bottom: var(--space-xs);
+}
+
+.visit-hours {
+  font-size: 1.05rem;
+  line-height: 1.65;
+  margin: 0 0 var(--space-sm);
+  color: color-mix(in srgb, var(--bg) 88%, transparent);
+}
+
+.contact-hours {
+  line-height: 1.55;
+}
+
 .visit-card a {
   color: var(--orb-a);
 }

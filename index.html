@@ -59,6 +59,20 @@
           "name": "Jerusalem"
         },
         "knowsLanguage": ["he", "en", "th"],
+        "openingHoursSpecification": [
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday"],
+            "opens": "10:00",
+            "closes": "21:30"
+          },
+          {
+            "@type": "OpeningHoursSpecification",
+            "dayOfWeek": "Friday",
+            "opens": "09:00",
+            "closes": "15:30"
+          }
+        ],
         "hasOfferCatalog": {
           "@type": "OfferCatalog",
           "name": "Thai massage and spa treatments",
@@ -362,6 +376,11 @@
               <dd>
                 <a href="tel:+97274824666" data-i18n-tel="phone_spa_tel" data-i18n="phone_spa_display">07-482-4666</a>
               </dd>
+              <dt data-i18n="lbl_hours">Opening hours</dt>
+              <dd class="contact-hours">
+                <span data-i18n="hours_weekdays">Sun–Thu 10:00–21:30</span><br />
+                <span data-i18n="hours_friday">Fri 9:00–15:30</span>
+              </dd>
               <dt data-i18n="lbl_managers">Managers</dt>
               <dd class="contact-managers">
                 <span>
@@ -431,6 +450,11 @@
               <span data-i18n="address_line1">3 Ben Sira Street</span><br />
               <span data-i18n="address_line2">Jerusalem, Israel</span>
             </address>
+            <p class="section-kicker visit-hours-label" data-i18n="lbl_hours">Opening hours</p>
+            <p class="visit-hours">
+              <span data-i18n="hours_weekdays">Sun–Thu 10:00–21:30</span><br />
+              <span data-i18n="hours_friday">Fri 9:00–15:30</span>
+            </p>
             <p class="prose small visit-note" data-i18n="visit_note">
               New Thai spa in central Jerusalem — Ben Sira 3.
             </p>
