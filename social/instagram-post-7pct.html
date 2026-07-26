@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Sabai Dee — פוסט אינסטגרם 7% הנחה</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Frank+Ruhl+Libre:wght@400;500;700&family=Instrument+Serif:ital@0;1&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root {
+        --bg: #f3f0ea;
+        --ink: #161512;
+        --muted: #5c5850;
+        --accent: #6b5344;
+        --gold: #c4a882;
+        --pink: #d4849a;
+      }
+
+      * {
+        box-sizing: border-box;
+        margin: 0;
+        padding: 0;
+      }
+
+      body {
+        font-family: "Frank Ruhl Libre", "Segoe UI", Georgia, serif;
+        background: #2a2825;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        gap: 1rem;
+        padding: 1.5rem;
+      }
+
+      .hint {
+        color: #e8e4dc;
+        font-size: 0.9rem;
+        text-align: center;
+        max-width: 28rem;
+        line-height: 1.5;
+      }
+
+      .post {
+        width: 1080px;
+        height: 1080px;
+        background: var(--bg);
+        color: var(--ink);
+        position: relative;
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        padding: 72px 64px 68px;
+        text-align: center;
+        box-shadow: 0 24px 80px rgba(0, 0, 0, 0.35);
+      }
+
+      .post::before,
+      .post::after {
+        content: "";
+        position: absolute;
+        border-radius: 50%;
+        pointer-events: none;
+      }
+
+      .post::before {
+        width: 520px;
+        height: 520px;
+        top: -180px;
+        left: -120px;
+        background: color-mix(in srgb, var(--gold) 28%, transparent);
+      }
+
+      .post::after {
+        width: 380px;
+        height: 380px;
+        bottom: -120px;
+        right: -80px;
+        background: color-mix(in srgb, var(--pink) 22%, transparent);
+      }
+
+      .content {
+        position: relative;
+        z-index: 1;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        flex: 1;
+        justify-content: center;
+        gap: 28px;
+        width: 100%;
+      }
+
+      .logo {
+        width: 220px;
+        height: 220px;
+        object-fit: contain;
+      }
+
+      .eyebrow {
+        font-size: 28px;
+        letter-spacing: 0.12em;
+        text-transform: uppercase;
+        color: var(--muted);
+      }
+
+      .headline {
+        font-family: "Instrument Serif", "Frank Ruhl Libre", Georgia, serif;
+        font-size: 62px;
+        font-weight: 400;
+        line-height: 1.15;
+        max-width: 820px;
+      }
+
+      .sub {
+        font-size: 34px;
+        line-height: 1.45;
+        color: var(--muted);
+        max-width: 760px;
+      }
+
+      .badge {
+        display: inline-block;
+        margin-top: 8px;
+        padding: 18px 36px;
+        border-radius: 999px;
+        background: var(--accent);
+        color: var(--bg);
+        font-size: 38px;
+        font-weight: 700;
+        letter-spacing: 0.02em;
+      }
+
+      .footer {
+        position: relative;
+        z-index: 1;
+        width: 100%;
+        border-top: 2px solid color-mix(in srgb, var(--accent) 20%, transparent);
+        padding-top: 28px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      .brand {
+        font-family: "Instrument Serif", "Frank Ruhl Libre", Georgia, serif;
+        font-size: 42px;
+      }
+
+      .details {
+        font-size: 30px;
+        color: var(--muted);
+        line-height: 1.45;
+      }
+
+      .url {
+        font-size: 34px;
+        font-weight: 700;
+        color: var(--accent);
+        letter-spacing: 0.03em;
+      }
+
+      @media screen {
+        .post {
+          transform: scale(min(0.82, calc((100vw - 2rem) / 1080)));
+          transform-origin: center top;
+        }
+      }
+
+      @media print {
+        body {
+          background: white;
+          padding: 0;
+        }
+
+        .hint {
+          display: none;
+        }
+
+        .post {
+          transform: none;
+          box-shadow: none;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <p class="hint">
+      לשמירה כתמונה: צילום מסך של הריבוע למטה, או Ctrl+P → שמירה כ-PDF. גודל: 1080×1080 (ריבוע לאינסטגרם).
+    </p>
+    <div class="post" id="ig-post">
+      <div class="content">
+        <img class="logo" src="../images/logo.svg" alt="" />
+        <p class="eyebrow">ירושלים · עיסוי תאילנדי בלבד</p>
+        <h1 class="headline">עיסוי תאילנדי נדיר<br />בלב ירושלים</h1>
+        <p class="sub">
+          Sabai Dee — מסורת תאילנדית אמיתית<br />
+          בן סירא 3 · זימון 055-990-6352
+        </p>
+        <p class="badge">7% הנחה · תגידו שבאתם ממני</p>
+      </div>
+      <div class="footer">
+        <div class="brand">Sabai Dee Thai massage &amp; Spa</div>
+        <div class="details">עיסוי מסורתי · בשילוב שמנים · 4 ידיים · אבנים חמות</div>
+        <div class="url">sabaidee.co.il</div>
+      </div>
+    </div>
+  </body>
+</html>
