@@ -115,7 +115,7 @@
         "Clean, quiet, and professional. Foot massage after walking the Old City was a lifesaver. Easy to find on Ben Sira.",
       r5_name: "Ofra · Talpiot",
       r5_text:
-        "Only Thai treatments — no mixed styles — and you can feel it. Herbal compress on the back was wonderful with the massage.",
+        "Only Thai treatments — no mixed styles — and you can feel it. Hot stone massage on the back was wonderful.",
       r6_name: "Yossi · Beit HaKerem",
       r6_text:
         "Friendly team, clear communication, and fair prices. Haim helped me book a Friday morning slot without hassle.",
@@ -472,7 +472,7 @@
         "สะอาด เงียบ เป็นมืออาชีพ นวดเท้าหลังเดินในเมืองเก่าช่วยได้มาก หาเจอง่ายที่ Ben Sira",
       r5_name: "Ofra · Talpiot",
       r5_text:
-        "มีแต่ทรีตเมนต์ไทย — ไม่ผสมสไตล์อื่น — และรู้สึกได้ ประคบสมุนไพรบนหลังดีมากคู่กับนวด",
+        "มีแต่ทรีตเมนต์ไทย — ไม่ผสมสไตล์อื่น — และรู้สึกได้ นวดหินร้อนบนหลังดีมาก",
       r6_name: "Yossi · Beit HaKerem",
       r6_text:
         "ทีมเป็นกันเอง สื่อสารชัดเจน ราคาเป็นธรรม Haim ช่วยจองคิวเช้าวันศุกร์ได้สะดวก",
