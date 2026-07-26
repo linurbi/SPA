@@ -838,7 +838,7 @@ html[dir="rtl"] .hero-line {
 .price-table tbody th {
   font-weight: 500;
   color: var(--ink);
-  width: 28%;
+  width: 24%;
 }
 
 .price-table tbody tr:last-child th,
