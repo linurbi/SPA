@@ -279,10 +279,20 @@ html[dir="rtl"] .logo-img {
   }
 }
 
+/* Free header space so nav links (incl. prices & reviews) stay visible */
+@media (max-width: 1180px) {
+  .logo-tagline {
+    display: none;
+  }
+}
+
 .site-nav {
   display: flex;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: flex-end;
   gap: clamp(0.35rem, 1.2vw, 0.85rem);
+  max-width: 100%;
 }
 
 .site-nav a {
@@ -340,7 +350,7 @@ html[dir="rtl"] .logo-img {
   transform: translateY(-3.5px) rotate(-45deg);
 }
 
-@media (max-width: 720px) {
+@media (max-width: 1024px) {
   .nav-toggle {
     display: flex;
   }
@@ -360,6 +370,7 @@ html[dir="rtl"] .logo-img {
     right: 0;
     flex-direction: column;
     align-items: stretch;
+    flex-wrap: nowrap;
     padding: var(--space-md);
     gap: 0;
     background: var(--bg-elevated);
@@ -385,6 +396,12 @@ html[dir="rtl"] .logo-img {
     border-bottom: none;
     margin-top: var(--space-sm);
     text-align: center;
+  }
+}
+
+@media (min-width: 1025px) {
+  .site-nav a {
+    white-space: nowrap;
   }
 }
 
