@@ -124,7 +124,7 @@
         "A new spa that already feels established. Soft lighting, Thai details, and therapists who listen to how your body feels that day.",
       r8_name: "Alon · Givat Ze'ev",
       r8_text:
-        "My partner and I both had traditional massage. Deep release in the shoulders and hips — we walked out floating.",
+        "My partner and I both had traditional massage. Deep release in the shoulders and hips — we left feeling relaxed and light.",
       contact_h2: "Contact",
       contact_kicker: "We reply personally",
       contact_intro:
@@ -286,7 +286,7 @@
         "עיסוי תאילנדי מסורתי בדיוק במידה הנכונה — חזק, מדויק, ובכל זאת מרגיע. החדר ברחוב בן סירא מרגיש כמו בריחה קטנה מהעיר.",
       r2_name: "דוד · מבשרת",
       r2_text:
-        "ניסיתי עיסוי תאילנדי בתאילנד, וזה הכי קרוב שמצאתי בירושלים. לאן יודעת את המתיחות ונקודות הלחץ.",
+        "ניסיתי עיסוי תאילנדי בתאילנד, וזה הכי קרוב שמצאתי בירושלים. אן יודעת את המתיחות ונקודות הלחץ.",
       r3_name: "רונית · המושבה הגרמנית",
       r3_text:
         "הזמנתי עיסוי בשילוב שמנים אחרי שבוע לחוץ. שמן חם, קצב איטי, ובלי למהר. בפעם הבאה אקח 90 דקות.",
@@ -304,7 +304,7 @@
         "ספא חדש שכבר מרגיש מבוסס. תאורה רכה, פרטים תאילנדיים, ומטפלים שמקשיבים לאיך שהגוף מרגיש באותו יום.",
       r8_name: "אלון · גבעת זאב",
       r8_text:
-        "אני והבת זוג עשינו עיסוי מסורתי. שחרור עמוק בכתפיים ובירכיים — יצאנו צפים.",
+        "אני ובת הזוג עשינו עיסוי מסורתי. שחרור עמוק בכתפיים ובירכיים — יצאנו רגועים וקלים.",
       contact_h2: "צור קשר",
       contact_kicker: "עונים באופן אישי",
       contact_intro:
